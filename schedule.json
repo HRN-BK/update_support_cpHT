@@ -1,0 +1,101 @@
+[
+  {
+    "week": "3",
+    "day": "Monday",
+    "Date": "14/04",
+    "morning": "CT1",
+    "where_morning": "A3.202",
+    "Teacher_name_morning": "M.Diện",
+    "afternoon": "CT2",
+    "where_afternoon": "A3.202",
+    "Teacher_name_afternoon": "M.Diện"
+  },
+  {
+    "week": "3",
+    "day": "Tuesday",
+    "Date": "15/04",
+    "morning": "KC5",
+    "where_morning": "BT5",
+    "Teacher_name_morning": "Hòa",
+    "afternoon": "KC6",
+    "where_afternoon": "BT8",
+    "Teacher_name_afternoon": "Hòa"
+  },
+  {
+    "week": "3",
+    "day": "Wednesday",
+    "Date": "16/04",
+    "morning": "KC1",
+    "where_morning": "BT25",
+    "Teacher_name_morning": "Mi",
+    "afternoon": "KC1",
+    "where_afternoon": "BT25",
+    "Teacher_name_afternoon": "Mi"
+  },
+  {
+    "week": "3",
+    "day": "Thursday",
+    "Date": "17/04",
+    "morning": "CT3",
+    "where_morning": "A3.101",
+    "Teacher_name_morning": "Chi",
+    "afternoon": "CT4, CT5",
+    "where_afternoon": "A3.101",
+    "Teacher_name_afternoon": "Chi"
+  },
+  {
+    "week": "3",
+    "day": "Friday",
+    "Date": "18/04",
+    "morning": "KC2",
+    "where_morning": "BT23",
+    "Teacher_name_morning": "Tuấn",
+    "afternoon": "KC3",
+    "where_afternoon": "BT23",
+    "Teacher_name_afternoon": "Tuấn"
+  },
+  {
+    "week": "3",
+    "day": "Saturday",
+    "Date": "19/04",
+    "morning": "KC4",
+    "where_morning": "BT24",
+    "Teacher_name_morning": "H.Hoàn",
+    "afternoon": "KC4",
+    "where_afternoon": "BT24",
+    "Teacher_name_afternoon": "H.Hoàn"
+  },
+  {
+    "week": "4",
+    "day": "Monday",
+    "Date": "21/04",
+    "morning": "CT6, CT7",
+    "where_morning": "A3.202",
+    "Teacher_name_morning": "Lợi",
+    "afternoon": "CT+",
+    "where_afternoon": "A3.202",
+    "Teacher_name_afternoon": "Lợi"
+  },
+  {
+    "week": "4",
+    "day": "Tuesday",
+    "Date": "22/04",
+    "morning": "KC7, KC+",
+    "where_morning": "BT22",
+    "Teacher_name_morning": "Khánh",
+    "afternoon": "Thi TH P4",
+    "where_afternoon": "BT22",
+    "Teacher_name_afternoon": "Khánh"
+  },
+  {
+    "week": "4",
+    "day": "Wednesday",
+    "Date": "23/04",
+    "morning": "",
+    "where_morning": "",
+    "Teacher_name_morning": "",
+    "afternoon": "THI P2 LTP4",
+    "where_afternoon": "A3.101",
+    "Teacher_name_afternoon": ""
+  }
+]

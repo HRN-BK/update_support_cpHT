@@ -1,0 +1,113 @@
+{
+  "LịchTrựcĐạiĐội2": [
+    {
+      "Ngày": "13/04",
+      "Thứ": "Chủ nhật",
+      "TrựcNhàĂn": "a2",
+      "TrựcVsKV1": "a1",
+      "TrựcVsKV2": "a5",
+      "TrựcVsKV3": "a10",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "14/04",
+      "Thứ": "Thứ hai",
+      "TrựcNhàĂn": "a3",
+      "TrựcVsKV1": "a9",
+      "TrựcVsKV2": "a6",
+      "TrựcVsKV3": "a7",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "15/04",
+      "Thứ": "Thứ ba",
+      "TrựcNhàĂn": "a4",
+      "TrựcVsKV1": "a2",
+      "TrựcVsKV2": "a1",
+      "TrựcVsKV3": "a8",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "16/04",
+      "Thứ": "Thứ tư",
+      "TrựcNhàĂn": "a5",
+      "TrựcVsKV1": "a3",
+      "TrựcVsKV2": "a10",
+      "TrựcVsKV3": "a7",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "17/04",
+      "Thứ": "Thứ năm",
+      "TrựcNhàĂn": "a6",
+      "TrựcVsKV1": "a1",
+      "TrựcVsKV2": "a2",
+      "TrựcVsKV3": "a9",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "18/04",
+      "Thứ": "Thứ sáu",
+      "TrựcNhàĂn": "a7",
+      "TrựcVsKV1": "a3",
+      "TrựcVsKV2": "a5",
+      "TrựcVsKV3": "a4",
+      "TrựcGácĐêm": "a3, a4"
+    },
+    {
+      "Ngày": "19/04",
+      "Thứ": "Thứ bảy",
+      "TrựcNhàĂn": "a8",
+      "TrựcVsKV1": "a10",
+      "TrựcVsKV2": "a6",
+      "TrựcVsKV3": "a9",
+      "TrựcGácĐêm": "x"
+    },
+    {
+      "Ngày": "20/04",
+      "Thứ": "Chủ nhật",
+      "TrựcNhàĂn": "a9",
+      "TrựcVsKV1": "a1, a3, a5",
+      "TrựcVsKV2": "a2, a6, a8",
+      "TrựcVsKV3": "a4, a7, a10",
+      "TrựcGácĐêm": "a5, a6",
+      "GhiChú": "17h về"
+    },
+    {
+      "Ngày": "21/04",
+      "Thứ": "Thứ hai",
+      "TrựcNhàĂn": "a10",
+      "TrựcVsKV1": "a9",
+      "TrựcVsKV2": "a3",
+      "TrựcVsKV3": "a4",
+      "TrựcGácĐêm": "a7, a8"
+    },
+    {
+      "Ngày": "22/04",
+      "Thứ": "Thứ ba",
+      "TrựcNhàĂn": "a1",
+      "TrựcVsKV1": "a5",
+      "TrựcVsKV2": "a6",
+      "TrựcVsKV3": "a4",
+      "TrựcGácĐêm": "a9, a10"
+    },
+    {
+      "Ngày": "23/04",
+      "Thứ": "Thứ tư",
+      "TrựcNhàĂn": "a2",
+      "TrựcVsKV1": "a3",
+      "TrựcVsKV2": "a8",
+      "TrựcVsKV3": "a7",
+      "TrựcGácĐêm": "a1, a2"
+    },
+    {
+      "Ngày": "24/04",
+      "Thứ": "Thứ năm",
+      "TrựcNhàĂn": "a3",
+      "TrựcVsKV1": "a1, a2, a5",
+      "TrựcVsKV2": "a6, a7, a9",
+      "TrựcVsKV3": "a4, a8, a10",
+      "TrựcGácĐêm": "x"
+    }
+  ]
+}

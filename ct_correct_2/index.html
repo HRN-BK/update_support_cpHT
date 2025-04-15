@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              light: '#3B82F6',
+              dark: '#2563EB',
+            },
+            secondary: {
+              light: '#F472B6',
+              dark: '#DB2777',
+            },
+            background: {
+              light: '#F9FAFB',
+              dark: '#111827',
+            },
+            card: {
+              light: '#FFFFFF',
+              dark: '#1F2937',
+            },
+          },
+          borderRadius: {
+            'xl': '1rem',
+          },
+        },
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer components {
+      .btn {
+        @apply px-4 py-2 rounded-lg font-medium transition-colors;
+      }
+
+      .btn-primary {
+        @apply bg-primary-light dark:bg-primary-dark text-white hover:bg-blue-600 dark:hover:bg-blue-700;
+      }
+
+      .btn-secondary {
+        @apply bg-secondary-light dark:bg-secondary-dark text-white hover:bg-pink-600 dark:hover:bg-pink-700;
+      }
+
+      .card {
+        @apply bg-card-light dark:bg-card-dark rounded-xl shadow-md p-4 md:p-6;
+      }
+
+      .option-card {
+        @apply p-4 rounded-xl border-2 cursor-pointer transition-all;
+      }
+    }
+
+    body {
+      @apply bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    // Fetch questions from JSON file
+    let questions = [];
+
+    // Fetch the questions from the JSON file
+    fetch('questions.json')
+      .then(response => response.json())
+      .then(data => {
+        questions = data;
+        // Update the state with the loaded questions
+        state.allQuestions = questions;
+        // Render the UI after loading questions
+        render();
+      })
+      .catch(error => {
+        console.error('Error loading questions:', error);
+      });
+
+    // App state
+    const state = {
+      darkMode: false,
+      page: 'home', // 'home', 'quiz', 'results'
+      
+      // Quiz state
+      allQuestions: questions,
+      quizQuestions: [],
+      selectedLessons: [],
+      questionCount: 10,
+      currentQuestionIndex: 0,
+      userAnswers: {},
+      quizStarted: false,
+      quizSubmitted: false,
+      
+      // Extract unique lesson names
+      get availableLessons() {
+        return [...new Set(this.allQuestions.map(q => q.lesson))].sort();
+      },
+      
+      // Toggle a lesson selection
+      toggleLesson(lesson) {
+        if (this.selectedLessons.includes(lesson)) {
+          this.selectedLessons = this.selectedLessons.filter(l => l !== lesson);
+        } else {
+          this.selectedLessons.push(lesson);
+        }
+        render();
+      },
+      
+      // Set the number of questions
+      setQuestionCount(count) {
+        this.questionCount = count;
+        render();
+      },
+      
+      // Start the quiz
+      startQuiz() {
+        // Filter questions by selected lessons
+        let filteredQuestions = this.allQuestions;
+        if (this.selectedLessons.length > 0) {
+          filteredQuestions = this.allQuestions.filter(q => this.selectedLessons.includes(q.lesson));
+        }
+        
+        // Shuffle and limit to questionCount
+        const shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
+        const selected = this.questionCount === Infinity 
+          ? shuffled 
+          : shuffled.slice(0, Math.min(this.questionCount, shuffled.length));
+        
+        this.quizQuestions = selected;
+        this.currentQuestionIndex = 0;
+        this.userAnswers = {};
+        this.quizStarted = true;
+        this.quizSubmitted = false;
+        this.page = 'quiz';
+        render();
+      },
+      
+      // Select an answer
+      selectAnswer(questionIndex, answer) {
+        if (this.userAnswers[questionIndex] !== undefined) return; // Prevent changing answer
+        
+        this.userAnswers[questionIndex] = answer;
+        render();
+      },
+      
+      // Navigate to the next question
+      nextQuestion() {
+        if (this.currentQuestionIndex < this.quizQuestions.length - 1) {
+          this.currentQuestionIndex++;
+          render();
+        }
+      },
+      
+      // Navigate to the previous question
+      prevQuestion() {
+        if (this.currentQuestionIndex > 0) {
+          this.currentQuestionIndex--;
+          render();
+        }
+      },
+      
+      // Submit the quiz
+      submitQuiz() {
+        this.quizSubmitted = true;
+        this.page = 'results';
+        render();
+      },
+      
+      // Reset quiz state
+      resetQuiz() {
+        this.quizStarted = false;
+        this.quizSubmitted = false;
+        this.currentQuestionIndex = 0;
+        this.userAnswers = {};
+        this.page = 'home';
+        render();
+      },
+      
+      // Calculate quiz results
+      getResults() {
+        let correct = 0;
+        const results = this.quizQuestions.map((question, index) => {
+          const userAnswer = this.userAnswers[index];
+          const isCorrect = userAnswer === question.answer;
+          if (isCorrect) correct++;
+          
+          return {
+            ...question,
+            userAnswer,
+            isCorrect
+          };
+        });
+        
+        return {
+          score: correct,
+          total: this.quizQuestions.length,
+          percentage: this.quizQuestions.length > 0 ? Math.round((correct / this.quizQuestions.length) * 100) : 0,
+          questions: results
+        };
+      },
+      
+      // Toggle dark mode
+      toggleDarkMode() {
+        this.darkMode = !this.darkMode;
+        if (this.darkMode) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+        render();
+      }
+    };
+
+    // Check for saved dark mode preference
+    if (localStorage.getItem('darkMode') === 'true') {
+      state.darkMode = true;
+      document.documentElement.classList.add('dark');
+    }
+
+    // Render functions
+    function renderHeader() {
+      return `
+        <header class="sticky top-0 z-10 bg-card-light dark:bg-card-dark shadow-md mb-4">
+          <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+              <img src="01_logobachkhoasang.png" alt="Logo" class="h-10 w-auto" />
+              <h1 class="text-xl md:text-2xl font-bold">Quiz App</h1>
+            </div>
+            <button
+              id="toggle-theme"
+              class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+              aria-label="${state.darkMode ? 'Switch to light mode' : 'Switch to dark mode'}"
+            >
+              ${state.darkMode 
+                ? `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>`
+                : `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                  </svg>`
+              }
+            </button>
+          </div>
+        </header>
+      `;
+    }
+
+    function renderHome() {
+      return `
+        <div class="container mx-auto px-4 mb-4 flex justify-center">
+          <a href="../index.html" class="btn btn-primary flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            <span>Quay lại</span>
+          </a>
+        </div>
+        <div class="container mx-auto px-4 py-6">
+          <div class="card max-w-2xl mx-auto">
+            <h2 class="text-2xl font-bold mb-6">Start a Quiz</h2>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold mb-3">Select Lessons:</h3>
+              
+              <!-- Học phần 2 -->
+              <h4 class="text-md font-medium mb-2">Học phần 2:</h4>
+              <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-4">
+                ${['CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7'].map(lesson => `
+                  <button
+                    class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
+                      state.selectedLessons.includes(lesson)
+                        ? 'bg-primary-light dark:bg-primary-dark text-white'
+                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
+                    }"
+                    data-lesson="${lesson}"
+                  >
+                    ${lesson}
+                  </button>
+                `).join('')}
+              </div>
+              
+              <!-- Học phần 4 -->
+              <h4 class="text-md font-medium mb-2">Học phần 4:</h4>
+              <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-4">
+                ${['KC1', 'KC2', 'KC3', 'KC4', 'KC5', 'KC6', 'KC7'].map(lesson => `
+                  <button
+                    class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
+                      state.selectedLessons.includes(lesson)
+                        ? 'bg-primary-light dark:bg-primary-dark text-white'
+                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
+                    }"
+                    data-lesson="${lesson}"
+                  >
+                    ${lesson}
+                  </button>
+                `).join('')}
+              </div>
+              
+              <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                ${state.selectedLessons.length === 0
+                  ? 'No lessons selected. All questions will be included.'
+                  : `Selected ${state.selectedLessons.length} ${state.selectedLessons.length === 1 ? 'lesson' : 'lessons'}.`}
+              </p>
+            </div>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold mb-3">Number of Questions:</h3>
+              <div class="flex flex-wrap gap-2">
+                ${[5, 10, 20, 'All'].map(count => `
+                  <button
+                    class="count-btn px-4 py-2 rounded-lg font-medium transition-colors ${
+                      (count === 'All' && state.questionCount === Infinity) || count === state.questionCount
+                        ? 'bg-primary-light dark:bg-primary-dark text-white'
+                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
+                    }"
+                    data-count="${count}"
+                  >
+                    ${count}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+            
+            <button
+              id="start-quiz"
+              class="btn btn-primary w-full py-3 text-lg"
+            >
+              Start Quiz
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderQuiz() {
+      if (!state.quizStarted || state.quizQuestions.length === 0) {
+        return '';
+      }
+      
+      const currentQuestion = state.quizQuestions[state.currentQuestionIndex];
+      const userAnswer = state.userAnswers[state.currentQuestionIndex];
+      const isAnswered = userAnswer !== undefined;
+      
+      return `
+        <div class="container mx-auto px-4 py-6">
+          <div class="card max-w-2xl mx-auto">
+            <div class="flex justify-between items-center mb-4">
+              <h2 class="text-lg font-medium">Question ${state.currentQuestionIndex + 1} of ${state.quizQuestions.length}</h2>
+              
+              <div class="text-sm bg-primary-light/20 dark:bg-primary-dark/30 text-primary-dark dark:text-primary-light px-3 py-1 rounded-full">
+                Lesson ${currentQuestion.lesson}
+              </div>
+            </div>
+            
+            <div class="h-1 w-full bg-gray-200 dark:bg-gray-700 rounded-full mb-6">
+              <div 
+                class="h-1 bg-primary-light dark:bg-primary-dark rounded-full" 
+                style="width: ${((state.currentQuestionIndex + 1) / state.quizQuestions.length) * 100}%"
+              ></div>
+            </div>
+            
+            <div class="mb-6">
+              <h3 class="text-xl font-semibold mb-6">${currentQuestion.question}</h3>
+              
+              <div class="space-y-3">
+                ${Object.entries(currentQuestion.options).map(([key, value]) => {
+                  let optionClasses = "option-card border-gray-300 dark:border-gray-600 hover:border-primary-light dark:hover:border-primary-dark";
+                  
+                  // If this option has been selected or feedback is being shown
+                  if (isAnswered) {
+                    if (key === userAnswer) {
+                      if (key === currentQuestion.answer) {
+                        optionClasses = "option-card border-green-500 bg-green-100 dark:bg-green-900/30";
+                      } else {
+                        optionClasses = "option-card border-red-500 bg-red-100 dark:bg-red-900/30";
+                      }
+                    } else if (key === currentQuestion.answer) {
+                      optionClasses = "option-card border-green-500 bg-green-100 dark:bg-green-900/30";
+                    }
+                  }
+                  
+                  return `
+                    <div
+                      class="answer-option ${optionClasses}"
+                      data-key="${key}"
+                    >
+                      <div class="flex items-start">
+                        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mr-3">
+                          <span class="font-medium">${key}</span>
+                        </div>
+                        <div class="flex-1">${value}</div>
+                      </div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+            
+            <div class="flex flex-wrap gap-2 justify-between">
+              <div class="flex gap-2">
+                <button
+                  id="home-btn"
+                  class="btn bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
+                >
+                  Home
+                </button>
+                
+                <button
+                  id="prev-btn"
+                  ${state.currentQuestionIndex === 0 ? 'disabled' : ''}
+                  class="btn ${
+                    state.currentQuestionIndex === 0
+                      ? 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                      : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                  }"
+                >
+                  Previous
+                </button>
+                
+                <button
+                  id="next-btn"
+                  ${state.currentQuestionIndex === state.quizQuestions.length - 1 ? 'disabled' : ''}
+                  class="btn ${
+                    state.currentQuestionIndex === state.quizQuestions.length - 1
+                      ? 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                      : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                  }"
+                >
+                  Next
+                </button>
+              </div>
+              
+              <button
+                id="submit-btn"
+                class="btn btn-secondary"
+              >
+                Submit Quiz
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderResults() {
+      if (!state.quizSubmitted) {
+        return '';
+      }
+      
+      const results = state.getResults();
+      const { score, total, percentage, questions } = results;
+      
+      // Group questions by lesson
+      const lessonGroups = questions.reduce((groups, question) => {
+        const { lesson } = question;
+        if (!groups[lesson]) {
+          groups[lesson] = [];
+        }
+        groups[lesson].push(question);
+        return groups;
+      }, {});
+      
+      const getScoreColor = (percentage) => {
+        if (percentage >= 80) return 'text-green-600 dark:text-green-400';
+        if (percentage >= 60) return 'text-yellow-600 dark:text-yellow-400';
+        return 'text-red-600 dark:text-red-400';
+      };
+      
+      return `
+        <div class="container mx-auto px-4 py-6">
+          <div class="card max-w-2xl mx-auto">
+            <h2 class="text-2xl font-bold mb-4">Quiz Results</h2>
+            
+            <div class="mb-6 p-4 bg-gray-100 dark:bg-gray-800 rounded-xl">
+              <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                  <p class="text-lg font-medium">You scored:</p>
+                  <p class="text-3xl font-bold">
+                    <span class="${getScoreColor(percentage)}">${score}</span> / ${total}
+                  </p>
+                </div>
+                
+                <div class="text-center">
+                  <div class="inline-block relative w-24 h-24">
+                    <svg class="w-24 h-24" viewBox="0 0 100 100">
+                      <circle 
+                        class="text-gray-300 dark:text-gray-700" 
+                        stroke-width="8" 
+                        stroke="currentColor" 
+                        fill="transparent" 
+                        r="40" 
+                        cx="50" 
+                        cy="50" 
+                      />
+                      <circle 
+                        class="${getScoreColor(percentage)}"
+                        stroke-width="8" 
+                        stroke-dasharray="${2.51 * percentage}, 251.2" 
+                        stroke-linecap="round" 
+                        stroke="currentColor" 
+                        fill="transparent" 
+                        r="40" 
+                        cx="50" 
+                        cy="50" 
+                        transform="rotate(-90 50 50)" 
+                      />
+                    </svg>
+                    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                      <span class="text-xl font-bold ${getScoreColor(percentage)}">${percentage}%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <h3 class="text-xl font-semibold mb-4">Review Questions</h3>
+            
+            ${Object.entries(lessonGroups).map(([lesson, lessonQuestions]) => `
+              <div class="mb-6">
+                <div class="bg-primary-light/20 dark:bg-primary-dark/30 text-primary-dark dark:text-primary-light px-3 py-2 rounded-lg mb-3">
+                  <h4 class="text-lg font-medium">Lesson ${lesson}</h4>
+                </div>
+                
+                <div class="space-y-4">
+                  ${lessonQuestions.map((question, index) => `
+                    <div class="p-4 bg-gray-100 dark:bg-gray-800 rounded-xl">
+                      <p class="font-medium mb-3">${question.question}</p>
+                      
+                      <div class="space-y-2">
+                        ${Object.entries(question.options).map(([key, value]) => {
+                          let optionClasses = "py-2 px-3 rounded-lg flex items-start";
+                          
+                          if (key === question.answer) {
+                            optionClasses += " bg-green-100 dark:bg-green-900/30 border-l-4 border-green-500";
+                          } else if (key === question.userAnswer && key !== question.answer) {
+                            optionClasses += " bg-red-100 dark:bg-red-900/30 border-l-4 border-red-500";
+                          }
+                          
+                          return `
+                            <div class="${optionClasses}">
+                              <div class="w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mr-2">
+                                <span class="text-sm font-medium">${key}</span>
+                              </div>
+                              <div class="flex-1">${value}</div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+            
+            <button
+              id="home-btn"
+              class="btn btn-primary w-full py-3 text-lg"
+            >
+              Back to Home
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // Main render function
+    function render() {
+      const app = document.getElementById('app');
+      let content = '';
+      
+      content += renderHeader();
+      content += '<main class="flex-1">';
+      
+      switch (state.page) {
+        case 'home':
+          content += renderHome();
+          break;
+        case 'quiz':
+          content += renderQuiz();
+          break;
+        case 'results':
+          content += renderResults();
+          break;
+      }
+      
+      content += '</main>';
+      
+      app.innerHTML = content;
+      attachEventListeners();
+      
+      // Save dark mode preference
+      localStorage.setItem('darkMode', state.darkMode);
+    }
+
+    // Attach event listeners based on current page
+    function attachEventListeners() {
+      // Theme toggle
+      const themeToggle = document.getElementById('toggle-theme');
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => state.toggleDarkMode());
+      }
+      
+      // Home page
+      if (state.page === 'home') {
+        // Lesson buttons
+        const lessonButtons = document.querySelectorAll('.lesson-btn');
+        lessonButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const lesson = btn.getAttribute('data-lesson');
+            state.toggleLesson(lesson);
+          });
+        });
+        
+        // Question count buttons
+        const countButtons = document.querySelectorAll('.count-btn');
+        countButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const count = btn.getAttribute('data-count');
+            state.setQuestionCount(count === 'All' ? Infinity : parseInt(count));
+          });
+        });
+        
+        // Start quiz button
+        const startButton = document.getElementById('start-quiz');
+        if (startButton) {
+          startButton.addEventListener('click', () => state.startQuiz());
+        }
+      }
+      
+      // Quiz page
+      else if (state.page === 'quiz') {
+        // Answer options
+        const answerOptions = document.querySelectorAll('.answer-option');
+        answerOptions.forEach(option => {
+          option.addEventListener('click', () => {
+            const key = option.getAttribute('data-key');
+            state.selectAnswer(state.currentQuestionIndex, key);
+          });
+        });
+        
+        // Navigation buttons
+        const homeBtn = document.getElementById('home-btn');
+        if (homeBtn) {
+          homeBtn.addEventListener('click', () => {
+            if (confirm('Quay lại trang chủ? Kết quả sẽ không được lưu.')) {
+              state.resetQuiz();
+            }
+          });
+        }
+        
+        const prevBtn = document.getElementById('prev-btn');
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => state.prevQuestion());
+        }
+        
+        const nextBtn = document.getElementById('next-btn');
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => state.nextQuestion());
+        }
+        
+        const submitBtn = document.getElementById('submit-btn');
+        if (submitBtn) {
+          submitBtn.addEventListener('click', () => state.submitQuiz());
+        }
+      }
+      
+      // Results page
+      else if (state.page === 'results') {
+        const homeBtn = document.getElementById('home-btn');
+        if (homeBtn) {
+          homeBtn.addEventListener('click', () => {
+            if (confirm('Quay lại trang chủ? Kết quả sẽ không được lưu.')) {
+              state.resetQuiz();
+            }
+          });
+        }
+      }
+    }
+
+    // Initial render
+    render();
+  </script>
+</body>
+</html> 

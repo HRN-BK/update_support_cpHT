@@ -1,0 +1,96 @@
+{
+  "HọcPhần4": {
+    "TiêuĐề": "Kỹ thuật chiến đấu bộ binh và chiến thuật",
+    "NộiDung": [
+      {
+        "MãBài": "KC1",
+        "TênBài": "Ngắm bắn; ngắm chụm và ngắm trúng bằng súng tiểu liên AK",
+        "Trang": 192,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "KC2",
+        "TênBài": "Tư thế động tác bắn, bắn và thôi bắn súng tiểu liên AK",
+        "Trang": 201,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 2"
+      },
+      {
+        "MãBài": "KC3",
+        "TênBài": "Tập bắn mục tiêu cố định ban ngày bằng súng tiểu liên AK",
+        "Trang": 204,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 2"
+      },
+      {
+        "MãBài": "KC4",
+        "TênBài": "Tính năng, cấu tạo và cách sử dụng một số loại lựu đạn thường dùng; ném lựu đạn bài 1",
+        "Trang": 201,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "KC5",
+        "TênBài": "Từng người trong chiến đấu tiến công",
+        "Trang": 177,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 2"
+      },
+      {
+        "MãBài": "KC6",
+        "TênBài": "Từng người trong chiến đấu phòng ngự",
+        "Trang": 188,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 2"
+      },
+      {
+        "MãBài": "KC7",
+        "TênBài": "Từng người làm nhiệm vụ canh gác (cảnh giới)",
+        "Trang": 219,
+        "TàiLiệu": "Tài liệu học tập"
+      }
+    ]
+  },
+  "HọcPhần2": {
+    "TiêuĐề": "Công tác quốc phòng và an ninh",
+    "NộiDung": [
+      {
+        "MãBài": "CT1",
+        "TênBài": "Phòng, chống chiến lược 'diễn biến hòa bình', bạo loạn lật đổ của các thế lực thù địch đối với cách mạng Việt Nam",
+        "Trang": 94,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 1"
+      },
+      {
+        "MãBài": "CT2",
+        "TênBài": "Một số nội dung cơ bản về dân tộc, tôn giáo, đấu tranh phòng chống các thế lực thù địch lợi dụng vấn đề dân tộc, tôn giáo chống phá cách mạng Việt Nam",
+        "Trang": 144,
+        "TàiLiệu": "Giáo trình GDQP-AN, tập 1"
+      },
+      {
+        "MãBài": "CT3",
+        "TênBài": "Phòng, chống vi phạm pháp luật về bảo vệ môi trường",
+        "Trang": 64,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "CT4",
+        "TênBài": "Phòng, chống vi phạm pháp luật về bảo đảm trật tự an toàn giao thông",
+        "Trang": 82,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "CT5",
+        "TênBài": "Phòng, chống một số loại tội phạm xâm hại danh dự, nhân phẩm của người khác",
+        "Trang": 93,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "CT6",
+        "TênBài": "An toàn thông tin và phòng, chống vi phạm pháp luật trên không gian mạng",
+        "Trang": 107,
+        "TàiLiệu": "Tài liệu học tập"
+      },
+      {
+        "MãBài": "CT7",
+        "TênBài": "An ninh phi truyền thống và các mối đe dọa an ninh phi truyền thống ở Việt Nam",
+        "Trang": 129,
+        "TàiLiệu": "Tài liệu học tập"
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Education</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <div class="header-logo-title">
+          <img src="01_logobachkhoasang.png" alt="Logo Bách Khoa" class="header-logo">
+          <h1>Support Education</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="quiz-container">
+      <button class="nav-btn" id="take-quiz-btn">
+        <i class="fas fa-question-circle"></i>
+        <span>Take a Quiz</span>
+      </button>
+    </div>
+
+    <div class="navigation">
+      <button class="nav-btn active" data-section="overall">
+        <i class="fas fa-layer-group"></i>
+        <span>Overall</span>
+      </button>
+      <button class="nav-btn" data-section="duty-schedule">
+        <i class="fas fa-user-clock"></i>
+        <span>Lịch trực</span>
+      </button>
+      <button class="nav-btn" data-section="schedule">
+        <i class="fas fa-calendar-alt"></i>
+        <span>Lịch học</span>
+      </button>
+      <button class="nav-btn" data-section="lesson-details">
+        <i class="fas fa-book"></i>
+        <span>Bài học</span>
+      </button>
+      <button class="nav-btn" data-section="symbols">
+        <i class="fas fa-font"></i>
+        <span>Ký hiệu</span>
+      </button>
+    </div>
+
+    <main>
+      <section id="overall" class="section active">
+        <h2>Tổng quan</h2>
+        
+        <div class="overview-container">
+          <div class="overview-calendar">
+            <div class="calendar-container">
+              <div class="calendar-header">
+                <button id="prev-month" class="calendar-nav-btn"><i class="fas fa-chevron-left"></i></button>
+                <h3 id="current-month-year">Tháng 4, 2023</h3>
+                <button id="next-month" class="calendar-nav-btn"><i class="fas fa-chevron-right"></i></button>
+              </div>
+              
+              <div class="calendar-weekdays">
+                <div>T2</div>
+                <div>T3</div>
+                <div>T4</div>
+                <div>T5</div>
+                <div>T6</div>
+                <div>T7</div>
+                <div>CN</div>
+              </div>
+              
+              <div class="calendar-grid" id="calendar-grid">
+                <!-- Calendar cells will be generated here -->
+              </div>
+            </div>
+          </div>
+          
+          <div class="overview-details">
+            <h3 id="overview-selected-date" class="overview-selected-date">Chọn một ngày</h3>
+            
+            <div class="overview-sections">
+              <!-- Duty Schedule Section -->
+              <div class="overview-section" id="overview-duty">
+                <h4><i class="fas fa-user-clock"></i> Lịch trực</h4>
+                <div id="overview-duty-content" class="overview-content">
+                  <p class="no-data-message">Chọn một ngày để xem lịch trực</p>
+                </div>
+              </div>
+              
+              <!-- Class Schedule Section -->
+              <div class="overview-section" id="overview-schedule">
+                <h4><i class="fas fa-calendar-alt"></i> Lịch học</h4>
+                <div id="overview-schedule-content" class="overview-content">
+                  <div class="overview-session">
+                    <div class="session-morning">
+                      <h5>Buổi sáng</h5>
+                      <div id="overview-morning-lessons" class="overview-lessons">
+                        <p class="no-data-message">Chọn một ngày để xem lịch học</p>
+                      </div>
+                      <div class="overview-location">
+                        <strong>Địa điểm:</strong> <span id="overview-morning-location"></span>
+                      </div>
+                      <div class="overview-teacher">
+                        <strong>Giáo viên:</strong> <span id="overview-morning-teacher"></span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="overview-session">
+                    <div class="session-afternoon">
+                      <h5>Buổi chiều</h5>
+                      <div id="overview-afternoon-lessons" class="overview-lessons">
+                        <p class="no-data-message">Chọn một ngày để xem lịch học</p>
+                      </div>
+                      <div class="overview-location">
+                        <strong>Địa điểm:</strong> <span id="overview-afternoon-location"></span>
+                      </div>
+                      <div class="overview-teacher">
+                        <strong>Giáo viên:</strong> <span id="overview-afternoon-teacher"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Lesson Details Section -->
+              <div class="overview-section" id="overview-lessons">
+                <h4><i class="fas fa-book"></i> Chi tiết bài học</h4>
+                <div id="overview-lessons-content" class="overview-content">
+                  <p class="no-data-message">Chọn một ngày để xem chi tiết bài học</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" class="section">
+        <h2>Lịch học</h2>
+        
+        <!-- Full calendar view -->
+        <!-- Calendar has been moved to the overall section -->
+        
+        <!-- Day details panel -->
+        <div class="day-details" id="day-details">
+          <h3 class="day-details-date" id="selected-date">Ngày được chọn</h3>
+          <div class="day-details-content">
+            <div class="session-details morning-session">
+              <h4>Buổi sáng</h4>
+              <div class="detail-row">
+                <span class="detail-label">Bài học:</span>
+                <span class="detail-value" id="morning-lessons">-</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Địa điểm:</span>
+                <span class="detail-value" id="morning-location">-</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Giáo viên:</span>
+                <span class="detail-value" id="morning-teacher">-</span>
+              </div>
+              <div class="lesson-info-preview" id="morning-lesson-info"></div>
+            </div>
+            
+            <div class="session-details afternoon-session">
+              <h4>Buổi chiều</h4>
+              <div class="detail-row">
+                <span class="detail-label">Bài học:</span>
+                <span class="detail-value" id="afternoon-lessons">-</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Địa điểm:</span>
+                <span class="detail-value" id="afternoon-location">-</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Giáo viên:</span>
+                <span class="detail-value" id="afternoon-teacher">-</span>
+              </div>
+              <div class="lesson-info-preview" id="afternoon-lesson-info"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Week tabs navigation -->
+        <div class="week-tabs">
+          <button class="week-tab" data-week="3">Tuần 3</button>
+          <button class="week-tab" data-week="4">Tuần 4</button>
+        </div>
+        
+        <!-- Weekly schedule -->
+        <div class="weekly-schedule" id="weekly-schedule">
+          <!-- Week schedule will be generated here -->
+        </div>
+      </section>
+
+      <!-- New Duty Schedule Section -->
+      <section id="duty-schedule" class="section">
+        <h2>Lịch trực</h2>
+        
+        <div class="duty-container">
+          <div class="schedule-table-container">
+            <div id="loading-duty" class="loading">Đang tải dữ liệu...</div>
+            <div id="error-duty-container"></div>
+            <table class="schedule-table" id="duty-schedule-table">
+              <thead>
+                <tr>
+                  <th>Ngày</th>
+                  <th>Thứ</th>
+                  <th>Trực Nhà Ăn</th>
+                  <th>Trực VS KV1</th>
+                  <th>Trực VS KV2</th>
+                  <th>Trực VS KV3</th>
+                  <th>Trực Gác Đêm</th>
+                  <th>Ghi Chú</th>
+                </tr>
+              </thead>
+              <tbody id="duty-schedule-body">
+                <!-- Duty schedule data will be loaded here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="lesson-details" class="section">
+        <h2>Chi tiết bài học</h2>
+        
+        <!-- Reference Table -->
+        <div class="reference-section">
+          <h3>Bảng tham khảo nội dung bài học</h3>
+          
+          <!-- Học phần 4 Table -->
+          <h4 class="reference-subtitle">Học phần 4 (KC) - Kỹ thuật chiến đấu bộ binh và chiến thuật</h4>
+          <div class="reference-table-container">
+            <table class="reference-table">
+              <thead>
+                <tr>
+                  <th>Mã bài</th>
+                  <th>Tên bài</th>
+                  <th>Trang</th>
+                  <th>Tài liệu</th>
+                </tr>
+              </thead>
+              <tbody id="hocphan4-table-body">
+                <!-- Table content will be generated here -->
+              </tbody>
+            </table>
+          </div>
+          
+          <!-- Học phần 2 Table -->
+          <h4 class="reference-subtitle">Học phần 2 (CT) - Công tác quốc phòng và an ninh</h4>
+          <div class="reference-table-container">
+            <table class="reference-table">
+              <thead>
+                <tr>
+                  <th>Mã bài</th>
+                  <th>Tên bài</th>
+                  <th>Trang</th>
+                  <th>Tài liệu</th>
+                </tr>
+              </thead>
+              <tbody id="hocphan2-table-body">
+                <!-- Table content will be generated here -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="symbols" class="section">
+        <h2>Giải thích ký hiệu</h2>
+        <div id="symbols-list" class="symbols-list">
+          <!-- Symbols will be loaded here -->
+        </div>
+      </section>
+    <footer>
+      <p>&copy; Created by Biotechnology</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

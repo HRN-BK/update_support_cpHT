@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch Trực Đại Đội 2</title>
+  <style>
+    :root {
+      --primary-color: #1e88e5;
+      --accent-color: #ff8f00;
+      --text-color: #333333;
+      --background-color: #ffffff;
+      --card-bg: #f5f5f5;
+      --border-color: #e0e0e0;
+      --table-header-bg: #e3f2fd;
+      --table-row-odd: #f5f5f5;
+      --table-row-even: #ffffff;
+      --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 30px;
+    }
+
+    .duty-schedule-container {
+      background-color: var(--card-bg);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .schedule-table-container {
+      overflow-x: auto;
+      margin-top: 20px;
+    }
+
+    .schedule-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+      padding: 12px 15px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .schedule-table th {
+      background-color: var(--table-header-bg);
+      color: var(--text-color);
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .schedule-table tr:nth-child(odd) {
+      background-color: var(--table-row-odd);
+    }
+
+    .schedule-table tr:nth-child(even) {
+      background-color: var(--table-row-even);
+    }
+
+    .schedule-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .schedule-table tr:hover {
+      background-color: rgba(30, 136, 229, 0.05);
+    }
+
+    /* Style for weekend days */
+    .weekend {
+      background-color: #fff8e1 !important;
+    }
+
+    /* Style for duty codes */
+    .duty-code {
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+
+    /* Loading indicator */
+    .loading {
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+      color: #757575;
+    }
+
+    /* Error message */
+    .error-message {
+      padding: 15px;
+      background-color: rgba(255, 0, 0, 0.1);
+      border-left: 4px solid #ff5252;
+      color: var(--text-color);
+      border-radius: 4px;
+      margin: 15px 0;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .schedule-table th,
+      .schedule-table td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+      }
+      
+      h1 {
+        font-size: 1.5rem;
+      }
+      
+      .duty-schedule-container {
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .schedule-table th,
+      .schedule-table td {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+      }
+      
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lịch Trực Đại Đội 2</h1>
+    
+    <div class="duty-schedule-container">
+      <div id="loading" class="loading">Đang tải dữ liệu...</div>
+      <div id="error-container"></div>
+      
+      <div class="schedule-table-container">
+        <table class="schedule-table" id="duty-schedule-table">
+          <thead>
+            <tr>
+              <th>Ngày</th>
+              <th>Thứ</th>
+              <th>Trực Nhà Ăn</th>
+              <th>Trực VS KV1</th>
+              <th>Trực VS KV2</th>
+              <th>Trực VS KV3</th>
+              <th>Trực Gác Đêm</th>
+              <th>Ghi Chú</th>
+            </tr>
+          </thead>
+          <tbody id="duty-schedule-body">
+            <!-- Table content will be generated here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const dutyScheduleBody = document.getElementById('duty-schedule-body');
+      const loadingIndicator = document.getElementById('loading');
+      const errorContainer = document.getElementById('error-container');
+      
+      // Function to load and display duty schedule
+      async function loadDutySchedule() {
+        try {
+          const response = await fetch('lichtruc.json');
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          const data = await response.json();
+          
+          // Check if data has the expected structure
+          if (!data.LịchTrựcĐạiĐội2 || !Array.isArray(data.LịchTrựcĐạiĐội2)) {
+            throw new Error('Invalid data format: LịchTrựcĐạiĐội2 is missing or not an array');
+          }
+          
+          // Hide loading indicator
+          loadingIndicator.style.display = 'none';
+          
+          // Populate table with duty schedule data
+          displayDutySchedule(data.LịchTrựcĐạiĐội2);
+          
+        } catch (error) {
+          console.error('Error loading duty schedule:', error);
+          
+          // Hide loading indicator
+          loadingIndicator.style.display = 'none';
+          
+          // Show error message
+          errorContainer.innerHTML = `
+            <div class="error-message">
+              Không thể tải dữ liệu lịch trực. Vui lòng thử lại sau. (${error.message})
+            </div>
+          `;
+        }
+      }
+      
+      // Function to display duty schedule data in the table
+      function displayDutySchedule(scheduleData) {
+        // Sort by date if needed
+        scheduleData.sort((a, b) => {
+          const dateA = parseDate(a.Ngày);
+          const dateB = parseDate(b.Ngày);
+          return dateA - dateB;
+        });
+        
+        // Clear table body
+        dutyScheduleBody.innerHTML = '';
+        
+        // Add rows for each day in the schedule
+        scheduleData.forEach(day => {
+          const row = document.createElement('tr');
+          
+          // Add weekend class for Saturday and Sunday
+          if (day.Thứ === 'Chủ nhật' || day.Thứ === 'Thứ bảy') {
+            row.classList.add('weekend');
+          }
+          
+          // Add table cells
+          row.innerHTML = `
+            <td>${day.Ngày}</td>
+            <td>${day.Thứ}</td>
+            <td class="duty-code">${formatDutyValue(day.TrựcNhàĂn)}</td>
+            <td class="duty-code">${formatDutyValue(day.TrựcVsKV1)}</td>
+            <td class="duty-code">${formatDutyValue(day.TrựcVsKV2)}</td>
+            <td class="duty-code">${formatDutyValue(day.TrựcVsKV3)}</td>
+            <td class="duty-code">${formatDutyValue(day.TrựcGácĐêm)}</td>
+            <td>${day.GhiChú || ''}</td>
+          `;
+          
+          dutyScheduleBody.appendChild(row);
+        });
+      }
+      
+      // Helper function to format duty values
+      function formatDutyValue(value) {
+        if (!value) return '';
+        if (value === 'x') return '—'; // Replace 'x' with em dash
+        return value;
+      }
+      
+      // Helper function to parse date from DD/MM format
+      function parseDate(dateStr) {
+        const [day, month] = dateStr.split('/').map(Number);
+        // Use current year as default
+        const year = new Date().getFullYear();
+        return new Date(year, month - 1, day);
+      }
+      
+      // Load the duty schedule data
+      loadDutySchedule();
+    });
+  </script>
+</body>
+</html> 
