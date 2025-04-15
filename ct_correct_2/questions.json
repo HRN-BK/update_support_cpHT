@@ -401,7 +401,7 @@
     "question": "Trong quá trình bạo loạn, bọn phản động tìm mọi cách để?",
     "options": {
       "A": "Mở rộng lực lượng trong và ngoài nước liên hiệp bằng quân sự.",
-      "B": "Mở rộng phạm vi, quy mô, lực lượng, kêu gọi tài trợ của nước Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 ngoài.",
+      "B": "Mở rộng phạm vi, quy mô, lực lượng, kêu gọi tài trợ của nước.",
       "C": "Mở rộng phạm vi, quy mô lực lượng, đập phá trụ sở, uy hiếp chính quyền địa phương.",
       "D": "Mở rộng phạm vi, quy mô lực lượng, đập phá trụ sở, lật đổ chính quyền địa phương"
     },
@@ -436,7 +436,7 @@
     "number": "37",
     "question": "Nhiệm vụ phòng chống chiến lược \"diễn biến hòa bình\" và bạo loạn lật đổ được xác định?",
     "options": {
-      "A": "Là nhiệm vụ cấp bách, hàng đầu trong các nhiệm vụ quốc phòng Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 an ninh hiện nay.",
+      "A": "Là nhiệm vụ cấp bách, hàng đầu trong các nhiệm vụ quốc phòng an ninh hiện nay.",
       "B": "Là nhiệm vụ cấp bách, trọng tâm trong các nhiệm vụ quốc phòng an ninh hiện nay.",
       "C": "Là nhiệm vụ cấp bách, quan trọng trong các nhiệm vụ quốc phòng an ninh hiện nay.",
       "D": "Là nhiệm vụ trọng tâm, hàng đầu của sự nghiệp cách mạng nước ta hiện nay."
@@ -1209,7 +1209,7 @@
       "C": "Kinh tế, xã hội, nhận thức và tâm lý.",
       "D": "Chính trị, xã hội, kinh tế và tinh thần."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT2",
@@ -1221,7 +1221,7 @@
       "C": "Tính lịch sử, tính nghệ thuật, tính chính trị.",
       "D": "Tính kế thừa, tính quần chúng, tính chính trị."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT2",
@@ -1233,7 +1233,7 @@
       "C": "Tôn trọng và bảo đảm quyền tự do tín ngưỡng của công dân.",
       "D": "Kiên quyết bài trừ mê tín dị đoan và các thủ tục lạc hậu."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT2",
@@ -1245,7 +1245,7 @@
       "C": "Đồng bào tôn giáo là một bộ phận quan trọng của khối đại đoàn kết dân tộc.",
       "D": "Tất cả đều đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT2",
@@ -1257,7 +1257,7 @@
       "C": "Vận động quần chúng sống \"tốt đời, đẹp đạo\".",
       "D": "Vận động quần chúng sống \"từ bi, bác ái\"."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT2",
@@ -1269,7 +1269,7 @@
       "C": "Mặt trận Tổ quốc và các đoàn thể do Đảng lãnh đạo.",
       "D": "Toàn bộ hệ thống chính trị do Đảng lãnh đạo."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT2",
@@ -1281,7 +1281,7 @@
       "C": "Thực hiện tốt chính sách xóa đói giảm nghèo.",
       "D": "Thực hiện tốt chính sách đền ơn đáp nghĩa."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT2",
@@ -1293,7 +1293,7 @@
       "C": "Chú trọng công tác giáo dục thuyết phục đối với các già làng, trưởng bản, chức sắc tôn giáo.",
       "D": "Kịp thời phát hiện, ngăn chặn đối phó có hiệu quả đối với những lực lượng phản động."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1305,7 +1305,7 @@
       "C": "Đặc biệt quan trọng.",
       "D": "Vô cùng quan trọng."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1317,7 +1317,7 @@
       "C": "Sức mạnh ngoại sinh.",
       "D": "Sức mạnh tổng hợp."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1329,7 +1329,7 @@
       "C": "Nhà nước.",
       "D": "Cơ quan có thẩm quyền."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1341,7 +1341,7 @@
       "C": "Chấp hành khi tham gia.",
       "D": "Tuân thủ khi tham gia."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1353,7 +1353,7 @@
       "C": "6 vai trò.",
       "D": "7 vai trò."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1365,7 +1365,7 @@
       "C": "Khai thác quá mức của con người.",
       "D": "Nhu cầu của con người ngày càng tăng."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1377,7 +1377,7 @@
       "C": "Nâng cao ý thức về bảo vệ môi trường.",
       "D": "Thay đổi môi trường."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1389,7 +1389,7 @@
       "C": "Quy tắc xử sự.",
       "D": "Điều lệ cụ thể."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1401,7 +1401,7 @@
       "C": "Đối tượng bắc buộc.",
       "D": "Công cụ điều tiết."
     },
-    "answer": ""
+    "answer": "D "
   },
   {
     "lesson": "CT3",
@@ -1413,7 +1413,7 @@
       "C": "Nguyên tắc xử sự.",
       "D": "Văn bản hướng dẫn."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1425,7 +1425,7 @@
       "C": "Bảo vệ môi trường.",
       "D": "Thi hành pháp luật về môi trường."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1437,7 +1437,7 @@
       "C": "Chế tài hình sự, kinh tế, hành chính.",
       "D": "Hành lan pháp lý, cơ sở quan trọng."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1449,7 +1449,7 @@
       "C": "4.",
       "D": "5."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1461,7 +1461,7 @@
       "C": "Người có năng lực trách nhiệm hình sự (1); gây ảnh hưởng xấu tới sự tồn tại (2).",
       "D": "Một người đứng ra thực hiện (1); gây hậu quả nghiêm trong (2)."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1473,7 +1473,7 @@
       "C": "A và B đúng.",
       "D": "A và B sai."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1485,7 +1485,7 @@
       "C": "Xâm hại đến các quan hệ được pháp luật hình sự bảo vệ.",
       "D": "Gây mất cân bằng sinh thái môi trường."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1497,7 +1497,7 @@
       "C": "Yếu tố xã hội.",
       "D": "Yếu tố về nguyên nhân điều kiện."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1509,7 +1509,7 @@
       "C": "A và B đúng.",
       "D": "A và B sai."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1521,7 +1521,7 @@
       "C": "Sự ảnh hưởng hoặc làm tổn hại đến tính mạng, sức khoẻ của con người và các loài sinh vật.",
       "D": "Sự xâm phạm đến sức khỏe của con người và môi trường xung quanh."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1533,7 +1533,7 @@
       "C": "Gỗ quý, khoáng sản, lâm sản, động thực vật.",
       "D": "Yếu tố khác."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1545,7 +1545,7 @@
       "C": "Nguyên nhân điều kiện của môi trường (1); Hình thức trái pháp luật (2).",
       "D": "Những lĩnh vực về môi trường (1); hoạt động vi phạm pháp luật (2)."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1557,7 +1557,7 @@
       "C": "Bất kỳ người nào có đủ năng lực trách nhiệm hình sự.",
       "D": "A và B đúng."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1569,7 +1569,7 @@
       "C": "Người phạm tội thực hiện hành vi với lỗi vô ý.",
       "D": "Người phạm tội thực hiện hành vi với lỗi cố ý và vô ý."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1581,7 +1581,7 @@
       "C": "A và B đúng.",
       "D": "A và B sai."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1593,7 +1593,7 @@
       "C": "Điều 245 và 246.",
       "D": "Tất cả các đáp án trên."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1605,7 +1605,7 @@
       "C": "Điều 237.",
       "D": "Điều 238."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1617,7 +1617,7 @@
       "C": "Điều 242.",
       "D": "Điều 244."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1629,7 +1629,7 @@
       "C": "Điều 245.",
       "D": "Điều 246."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1641,7 +1641,7 @@
       "C": "Điều 242.",
       "D": "Điều 244."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1653,7 +1653,7 @@
       "C": "Điều 242 và 243.",
       "D": "Điều 244 và 245."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1665,7 +1665,7 @@
       "C": "Quá nhanh (1) và nóng (2).",
       "D": "Không ngừng (1) và năng động (2)."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1677,7 +1677,7 @@
       "C": "4.",
       "D": "5."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1689,7 +1689,7 @@
       "C": "Thẩm định công nghệ môi trường và ban hành các quy chuẩn, tiêu chuẩn môi trường.",
       "D": "Tất cả các đáp án trên."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1701,7 +1701,7 @@
       "C": "Các cơ quan chức năng chưa phát huy hết vai trò, trách nhiệm trong phòng chống vi phạm pháp luật về bảo vệ môi trường.",
       "D": "Đội ngũ cán bộ chiến sỹ trực tiếp đấu tranh phòng chống vi phạm pháp luật về môi trường còn hạn chế."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1713,7 +1713,7 @@
       "C": "Công tác quản lý nhà nước về môi trường còn hạn chế.",
       "D": "Tất cả đáp án trên."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1725,7 +1725,7 @@
       "C": "Công tác phối hợp giữa các lực lượng trong phòng chống tội phạm về môi trường còn chưa tốt.",
       "D": "Ý thức coi thường pháp luật, sống thiếu kỷ Cương không tuân thủ các quy tắc chuẩn mực xã hội."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1737,7 +1737,7 @@
       "C": "Mọi tầng lớp trong xã hội.",
       "D": "Quan nhà nước, các tổ chức xã hội và công dân."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1749,7 +1749,7 @@
       "C": "Chính phủ và Ủy ban nhân dân cấp.",
       "D": "Các cơ quan bảo vệ pháp luật."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1761,7 +1761,7 @@
       "C": "6.",
       "D": "7."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1773,7 +1773,7 @@
       "C": "Rất đa dạng.",
       "D": "Rất nhiều thành phần."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1785,7 +1785,7 @@
       "C": "Một cách rộng rãi.",
       "D": "Từ trung ương đến địa phương."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1797,7 +1797,7 @@
       "C": "7 nội dung.",
       "D": "8 nội dung."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1809,7 +1809,7 @@
       "C": "Phương hướng, thủ đoạn hoạt động, hậu quả tác hại gây ra cho xã hội và nhân dân.",
       "D": "Cả 3 đáp án trên."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1821,7 +1821,7 @@
       "C": "Nguyên nhân và điều kiện của hành vi phạm tội.",
       "D": "Động cơ mục đích phạm tội của đối tượng."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1833,7 +1833,7 @@
       "C": "Kịp thời ban hành các văn bản có tính pháp lý liên quan đến môi trường.",
       "D": "Cần phải có sự vào cuộc của cả hệ thống chính trị."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1845,7 +1845,7 @@
       "C": "Nguyên nhân, điều kiện của tội phạm.",
       "D": "Các yếu tố khác."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1857,7 +1857,7 @@
       "C": "Công an, thanh tra chuyên ngành, quản lý thị trường, hải quan, kiểm lâm.",
       "D": "Công an, quân đội, toàn án, viện kiểm soát."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT3",
@@ -1869,7 +1869,7 @@
       "C": "Biện pháp cải tạo, Biện pháp giáo dưỡng, Biện pháp tuyên truyền, Biện pháp vân động.",
       "D": "A và B đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT3",
@@ -1881,7 +1881,7 @@
       "C": "Điều 53.",
       "D": "Điều 63."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1893,7 +1893,7 @@
       "C": "Quản lý môi trường.",
       "D": "Quản lý nhà nước về môi trường."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT3",
@@ -1905,7 +1905,7 @@
       "C": "Cá nhân, tập thể cơ quan Nhà nước.",
       "D": "Các cấp, các ngành địa phương."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT3",
@@ -1917,7 +1917,7 @@
       "C": "Phối hợp trong các hoạt động hợp tác quốc tế phòng, chống tội phạm, vi phạm pháp luật về môi trường có yếu tố nước ngoài, xuyên quốc gia.",
       "D": "Phối hợp với các cơ quan chuyên môn như ngành Tài nguyên và Môi trường, Công an (Cảnh sát môi trường), Thông tin truyền thông,... tổ chức các buổi tuyên truyền, tọa đàm trao đổi, các cuộc thi tìm hiệu về bảo vệ môi trường và phòng, chống vi phạm pháp luật về bảo vệ môi trường."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -1929,7 +1929,7 @@
       "C": "Một hệ thống văn bản pháp lý của Nhà nước.",
       "D": "Một công cụ quan trọng của Nhà nước."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -1941,7 +1941,7 @@
       "C": "Văn bản hướng dẫn thi hành pháp luật về giao thông.",
       "D": "Qui tắc xử sự của người tham gia giao thông."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT4",
@@ -1953,7 +1953,7 @@
       "C": "4 vai trò.",
       "D": "5 vai trò."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -1965,7 +1965,7 @@
       "C": "Năng lực của Nhà nước.",
       "D": "Khả năng của Nhà nước."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT4",
@@ -1977,7 +1977,7 @@
       "C": "Sức mạnh của Nhà nước.",
       "D": "Chức năng quản lý Nhà nước."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT4",
@@ -1989,7 +1989,7 @@
       "C": "5 nội dung.",
       "D": "6 nội dung."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -2001,7 +2001,7 @@
       "C": "Quốc hội.",
       "D": "Chính phủ."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2013,7 +2013,7 @@
       "C": "Vi phạm hành chính và vi phạm hình sự.",
       "D": "Vi phạm về nồng độ cồn và vi phạm về sử dụng chất kích thích."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2025,7 +2025,7 @@
       "C": "Có lỗi do cá nhân hoặc tổ chức thực hiện.",
       "D": "Phạm tội."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2037,7 +2037,7 @@
       "C": "Phạt hành chính.",
       "D": "Phạt hình sự."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2049,7 +2049,7 @@
       "C": "Trong các hệ thống pháp luật do Nhà nước ban hành.",
       "D": "Trong bộ luật hình sự."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT4",
@@ -2061,7 +2061,7 @@
       "C": "Có quốc tịch nước Việt Nam.",
       "D": "A và B đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT4",
@@ -2073,7 +2073,7 @@
       "C": "Trực tiếp hoặc gián tiếp vi phạm.",
       "D": "Chủ quan coi thường pháp luật."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT4",
@@ -2085,7 +2085,7 @@
       "C": "Không có dấu hiệu nào.",
       "D": "A và B đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT4",
@@ -2097,7 +2097,7 @@
       "C": "Ý thức chấp hành về pháp luật giao thông của mọi người cần thấp",
       "D": "Do sự chủ quan khi tham gia giao thông."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -2109,7 +2109,7 @@
       "C": "Do sự xuống cấp quá nhiều của các cơ sở hạ tầng giao thông (đường xá, cầu cống, biển báo...).",
       "D": "Do sự phát triển quá nhanh của nền kinh tế."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -2121,7 +2121,7 @@
       "C": "4 nguyên nhân và điều kiện.",
       "D": "5 nguyên nhân và điều kiện."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT4",
@@ -2133,7 +2133,7 @@
       "C": "Cơ quan Nhà nước, các tổ chức xã hội và công dân.",
       "D": "Của tất cả mọi người khi tham gia giao thông."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2145,7 +2145,7 @@
       "C": "Hình thức và biện pháp.",
       "D": "Văn bản hướng dẫn thi hành."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2157,7 +2157,7 @@
       "C": "Các tổ chức đoàn thể trong xã hội.",
       "D": "Các cơ quan bảo vệ pháp luật."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -2169,7 +2169,7 @@
       "C": "6.",
       "D": "5."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT4",
@@ -2181,7 +2181,7 @@
       "C": "Công an, tòa án, viện kiểm soát.",
       "D": "Các tổ chức xã hội và tổ chức quần chúng tự quản."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT4",
@@ -2193,7 +2193,7 @@
       "C": "Phòng ngừa vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông là hoạt động của các cơ quan Nhà nước, các tổ chức xã hội và công dân bằng nhiều hình thức.",
       "D": "Sự không tương thích giữa các yếu tố cơ bản cấu thành hoạt động giao thông vận tải quốc gia."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT4",
@@ -2203,9 +2203,9 @@
       "A": "Vi phạm hành chính xảy ra trong bảo đảm trật tự, an toàn giao thông là hành vi bị xử phạt hành chính.",
       "B": "Các tội phạm xâm phạm an toàn giao thông là những hành vi nguy hiểm cho xã hội được quy định trong Bộ Luật hình sự.",
       "C": "Phát hiện, xử lý nghiêm các hành vi vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông theo quy định của pháp luật.",
-      "D": "Vi phạm hành chính xảy ra trong lĩnh bảo đảm trật tự, an toàn giao thông là hành vi có lỗi do cá nhân. Bài 5: PHÒNG, CHỐNG MỘT SỐ LOẠI TỘI PHẠM XÂM HẠI DANH DỰ NHÂN PHẨM CỦA NGƯỜI KHÁC"
+      "D": "Vi phạm hành chính xảy ra trong lĩnh bảo đảm trật tự, an toàn giao thông là hành vi có lỗi do cá nhân."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT5",
@@ -2217,7 +2217,7 @@
       "C": "Toà án.",
       "D": "Công an."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT5",
@@ -2229,7 +2229,7 @@
       "C": "Điều 13 năm 1948.",
       "D": "Điều 13 năm 1984."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT5",
@@ -2241,7 +2241,7 @@
       "C": "Trong quá trình sinh trưởng phát triển và hoàn thiện của mỗi người.",
       "D": "Tất cả đều sai."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT5",
@@ -2253,7 +2253,7 @@
       "C": "Tương tự nhau.",
       "D": "Giống hoặc khác nhau."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT5",
@@ -2265,7 +2265,7 @@
       "C": "Làm cho người đó cảm thấy mình không còn muốn sống.",
       "D": "Làm cho người đó tự ti mặc cảm với xã hội."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT5",
@@ -2277,7 +2277,7 @@
       "C": "A và B đúng.",
       "D": "A và B sai."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT5",
@@ -2289,7 +2289,7 @@
       "C": "Hành vi khác.",
       "D": "B và C đúng."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT5",
@@ -2301,7 +2301,7 @@
       "C": "Điều 12.",
       "D": "Điều 28."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT5",
@@ -2313,7 +2313,7 @@
       "C": "Dấu hiệu khác.",
       "D": "A và B đúng."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT5",
@@ -2325,7 +2325,7 @@
       "C": "Là các loại tội phạm xâm phạm đến an ninh trật tự của con người.",
       "D": "là các loại tội phạm xâm phạm đến lợi ích, địa vị của con người."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT5",
@@ -2337,7 +2337,7 @@
       "C": "Nguy hiểm cho xã hội .",
       "D": "Không phải những hành vi nêu trên."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT5",
@@ -2349,7 +2349,7 @@
       "C": "Người có năng lực trách nhiệm hình sự.",
       "D": "Người không có năng lực trách nhiệm hình sự."
     },
-    "answer": ""
+    "answer": "C"
   },
   {
     "lesson": "CT5",
@@ -2361,7 +2361,7 @@
       "C": "Hành vi không phạm tội.",
       "D": "Hành vi đặc biệt nguy hiểm cho xã hội."
     },
-    "answer": ""
+    "answer": "B"
   },
   {
     "lesson": "CT5",
@@ -2373,7 +2373,7 @@
       "C": "Các tội xâm phạm tình dục, tội đánh người trọng thương, tội buôn bán ma túy, tội làm nhục người khác.",
       "D": "Các tội xâm phạm tình dục, tội chống người thi hành công vụ, tội buôn bán người, tội hiếp dâm trẻ em."
     },
-    "answer": ""
+    "answer": "A"
   },
   {
     "lesson": "CT5",
@@ -2385,19 +2385,19 @@
       "C": "9.",
       "D": "10."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT5",
     "number": "200",
-    "question": "Điều cụm từ còn thiếu vào nội dung sau:“Phòngngừatội phạmlàviệclàmcủacáccơquannhànước,cáctổchứcxãhội và…bằngnhiềubiệnphápkhácnhau”?",
+    "question": "Điều cụm từ còn thiếu vào nội dung sau:“Phòngngừatội phạmlàviệclàmcủacáccơquan nhà nước,cáctổchứcxãhội và…bằngnhiềubiệnphápkhácnhau”?",
     "options": {
       "A": "Công an.",
       "B": "Toà án.",
       "C": "Viện kiểm soát.",
       "D": "Công dân."
     },
-    "answer": ""
+    "answer": "D"
   },
   {
     "lesson": "CT5",
@@ -2488,7 +2488,7 @@
     "number": "208",
     "question": "Để tổ chức tiến hành các hoạt động phòng ngừa tội phạm thì cần phải?",
     "options": {
-      "A": "Tích cực, chủ động phát hiện mọi hoạt động của tội phạm và Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 thông báo cho cơ quan chức năng.",
+      "A": "Tích cực, chủ động phát hiện mọi hoạt động của tội phạm và thông báo cho cơ quan chức năng.",
       "B": "Trực tiếp làm tốt công tác phòng ngừa tội phạm ngay trong phạm vi gia đình (quản lý, giáo dục các thành viên trong gia đình).",
       "C": "Đổi mới và hoàn thiện thể chế, chính sách kinh tế - xã hội, góp phần đảm bảo an sinh xã hội, nâng cao hiệu quả phòng chống tội phạm.",
       "D": "Tham gia nhiệt tình vào công tác giáo dục, cảm hóa các đối tượng có liên quan đến hoạt động tội phạm tại cộng đồng dân cư."
@@ -2719,7 +2719,7 @@
       "A": "Yêu mến.",
       "B": "Kính trọng.",
       "C": "Tôn trọng.",
-      "D": "Yêu thương. Bài 6: AN TOÀN THÔNG TIN VÀ PHÒNG CHỐNG VI PHẠM PHÁP LUẬT TRÊN KHÔNG GIAN MẠNG Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333"
+      "D": "Yêu thương."
     },
     "answer": ""
   },
@@ -2786,7 +2786,7 @@
   {
     "lesson": "CT6",
     "number": "233",
-    "question": "Điền từ còn thiếu trong khái niệm: An toàn thông tin là… cho các hoạt động của các cơ sở hạ tầng thông tin trong đó bao gồm an toàn phần cứng và phần mềm theo các tiêu chuẩn kỹ thuật do nhà nước ban hành duy trì các tính chất bí mật toàn vẹn sẵn Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 sàng của thông tin trong lưu trữ xử lý và truyền dẫn trên mạng.",
+    "question": "Điền từ còn thiếu trong khái niệm: An toàn thông tin là… cho các hoạt động của các cơ sở hạ tầng thông tin trong đó bao gồm an toàn phần cứng và phần mềm theo các tiêu chuẩn kỹ thuật do nhà nước ban hành duy trì các tính chất bí mật toàn vẹn sẵn sàng của thông tin trong lưu trữ xử lý và truyền dẫn trên mạng.",
     "options": {
       "A": "An toàn đường dẫn thông tin.",
       "B": "An toàn kỹ thuật.",
@@ -2922,7 +2922,7 @@
     "options": {
       "A": "Loại tội phạm thông thường.",
       "B": "Loại tội phạm sử dụng những thành tựu mới của khoa học - kỹ thuật.",
-      "C": "Loại tội phạm sử dụng những thành tựu mới của công nghệ hiện Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 đại làm công cụ, phương tiện để thực hiện hành vi phạm tội một cách cô ý hoặc vô ý.",
+      "C": "Loại tội phạm sử dụng những thành tựu mới của công nghệ hiện đại làm công cụ, phương tiện để thực hiện hành vi phạm tội một cách cô ý hoặc vô ý.",
       "D": "Loại tội phạm sử dụng những thành tựu mới của công nghệ hiện đại gây nguy hiểm cho xã hội."
     },
     "answer": ""
@@ -3079,7 +3079,7 @@
       "A": "Tấn công mạng, gián điệp mạng.",
       "B": "Khủng bố mạng, tội phạm mạng.",
       "C": "Nguy cơ chiến tranh mạng.",
-      "D": "Tất cả các phương án trên. Bài 7: AN NINH PHI TRUYỀN THỐNG VÀ ĐẤU TRANH PHÒNG CHỐNG CÁC ĐE DỌA AN NINH PHI TRUYỀN THỐNG Ở VIỆT NAM"
+      "D": "Tất cả các phương án trên."
     },
     "answer": ""
   },
@@ -3170,7 +3170,7 @@
   {
     "lesson": "CT7",
     "number": "265",
-    "question": "Thách thức của an ninh phi truyền thống đối với lĩnh vực Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 quốc phòng an ninh là?",
+    "question": "Thách thức của an ninh phi truyền thống đối với lĩnh vực quốc phòng an ninh là?",
     "options": {
       "A": "Đe dọa đến an ninh chính trị đất nước.",
       "B": "Đe dọa trực tiếp đến quốc phòng an ninh.",
@@ -3242,7 +3242,7 @@
   {
     "lesson": "CT7",
     "number": "271",
-    "question": "Hãy chọn cụm từ đứng nhất tương ứng với vị trí (1) và (2) Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 để làm rõ khái niệm sau: “Nội dung của an ninh truyền thống hay an ninh quốc gia chính là an ninh chính trị,... (1),... (2)”",
+    "question": "Hãy chọn cụm từ đứng nhất tương ứng với vị trí (1) và (2) để làm rõ khái niệm sau: “Nội dung của an ninh truyền thống hay an ninh quốc gia chính là an ninh chính trị,... (1),... (2)”",
     "options": {
       "A": "Tiềm lực vũ trang (1); an ninh chính trị (2).",
       "B": "An ninh quân sự (1); tiềm lực vũ trang (2).",
@@ -3355,14 +3355,14 @@
       "A": "Phát huy mạnh mẽ sức mạnh tổng hợp của toàn dân tộc, của cả hệ thống chính trị để bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ của Tổ quốc",
       "B": "Nâng cao nhận thức về các mối đe dọa an ninh truyền thống đối với an ninh con người, an ninh cộng đồng, an ninh quốc gia và an ninh nhân loại",
       "C": "Chủ động, tích cực phòng ngừa, ứng phó với các mối đe dọa an ninh truyền thống",
-      "D": "Chủ động và tích cực đầu tư phát triển bền vững, không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân, chăm lo bảo vệ môi trường sinh thái Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333"
+      "D": "Chủ động và tích cực đầu tư phát triển bền vững, không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân, chăm lo bảo vệ môi trường sinh thái"
     },
     "answer": ""
   },
   {
     "lesson": "CT7",
     "number": "281",
-    "question": "Điền vào chổ trống: “Phảigiữvữngthếchủđộngtrong bảo...,chủđộngtiếncôngvàtíchcựcphòngngừatrongđấutranh chốngcácthếlựcthùđịch,cácloạitộiphạm,khôngđểbịđộng, bấtngờ.”",
+    "question": "Điền vào chổ trống: “Phải giữ vững thế chủ động trong bảo ..., chủ động tiến công và tích cực phòng ngừa trong đấu tranh chống các thế lực thù địch, các loại tội phạm, không để bị động, bất ngờ.”",
     "options": {
       "A": "An ninh xã hội.",
       "B": "An ninh chính trị.",
@@ -3398,7 +3398,7 @@
   {
     "lesson": "CT7",
     "number": "284",
-    "question": "Điền vào chổ trống: “Anninhphitruyềnthốnglànhững vấn đề ảnh hưởng lớn, không chỉ đe dọa đến... (1), cộng đồng ngườitrongphạmvịhoặcmộtsốnướcmàcònđedọađến...(2) nhữngvấnđềđóđượcthểhiệntrênnhiềulĩnhvựcnhưngnằm ngoàivấnđềquânsựvàtrongbốicảnhliênkếtquốctế.”",
+    "question": "Điền vào chổ trống: “An ninh phi truyền thống là những vấn đề ảnh hưởng lớn, không chỉ đe dọa đến... (1), cộng đồng người trong phạm vị hoặc một số nước mà còn đe dọa đến...(2) những vấn đề đó được thể hiện trên nhiều lĩnh vực nhưng nằm ngoài vấn đề quân sự và trong bối cảnh liên kết quốc tế.”",
     "options": {
       "A": "Tính mạng con người (1); toàn thể nhân loại (2).",
       "B": "An toàn sức khỏe (1); an ninh quốc gia (2).",
@@ -3462,7 +3462,7 @@
     "options": {
       "A": "Chủ động xây dựng lực lượng, đầu tư nguồn lực cho quản trị an ninh phi truyền thống ở từng lĩnh vực, từng địa bàn, từng nội dung cụ thể; thường xuyên diễn tập để tránh rơi vào thế bị động khi xảy ra tình huống bất thường.",
       "B": "Giữ vững an ninh chính trị, xử lý các vấn đề dân tộc và tôn giáo một cách khéo léo, giải tỏa các xung đột xã hội phù hợp, phòng ngừa và ngăn chặn khả năng chuyển hóa của xung đột.",
-      "C": "Phát huy sức mạnh tổng hợp của hệ thống chính trị và toàn xã hội trong quản trị và kiểm soát các mối đe dọa an ninh phi truyền Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 thống.",
+      "C": "Phát huy sức mạnh tổng hợp của hệ thống chính trị và toàn xã hội trong quản trị và kiểm soát các mối đe dọa an ninh phi truyền thống.",
       "D": "Chủ động và tích cực thúc đẩy hợp tác quốc tế trong phòng ngừa và ứng phó với các mối đe dọa an ninh phi truyền thống."
     },
     "answer": ""
@@ -3530,7 +3530,7 @@
   {
     "lesson": "CT7",
     "number": "295",
-    "question": "Các giải pháp phòng ngừa và ứng phó với các mối đe dọa Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 an ninh phi truyền thống phải được?",
+    "question": "Các giải pháp phòng ngừa và ứng phó với các mối đe dọa an ninh phi truyền thống phải được?",
     "options": {
       "A": "Cụ thể hóa thành nhiều văn bản khác nhau.",
       "B": "Tích hợp vào từng chiến lược.",
@@ -3578,7 +3578,7 @@
   {
     "lesson": "CT7",
     "number": "299",
-    "question": "Trong huy động nguồn lực tài chính bằng nhiều kênh Downloaded by Boi Boi (boiboisieulun@gmail.com) lOMoARcPSD|54957333 khác nhau để đầu tư cho hoạt động phòng ngừa, kiểm soát, ứng phó các mối đe dọa an ninh phi truyền thống, gồm có những nguồn nào?",
+    "question": "Trong huy động nguồn lực tài chính bằng nhiều kênh khác nhau để đầu tư cho hoạt động phòng ngừa, kiểm soát, ứng phó các mối đe dọa an ninh phi truyền thống, gồm có những nguồn nào?",
     "options": {
       "A": "Nguồn tài chính ngân sách, Nguồn tài chính doanh nghiệp.",
       "B": "Nguồn tài chính xã hội, Nguồn tài chính quốc tế.",
@@ -3595,8 +3595,272 @@
       "A": "Rất quan trọng.",
       "B": "Vô cùng quan trọng.",
       "C": "Không quan trọng.",
-      "D": "Đặc biệt quan trọng. Downloaded by Boi Boi (boiboisieulun@gmail.com)"
+      "D": "Đặc biệt quan trọng."
     },
     "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "1",
+    "question": "Trong chiến đấu tiến công, trước khi vận động đến gần địch người chiến sỹ phải:",
+    "options": {
+      "A": "Quan sát địch, địa hình, thời tiết, ánh sáng.",
+      "B": "Xác định đường, hướng vận động, vị trí tạm dừng.",
+      "C": "Xác định cách nghi binh, lừa địch trên đường vận động.",
+      "D": "Phương A, B, C đúng."
+    },
+    "answer": "D"
+  },
+  {
+    "lesson": "KC5",
+    "number": "2",
+    "question": "Chiến sĩ thường nhận nhiệm vụ chiến đấu từ:",
+    "options": {
+      "A": "Tiểu đoàn trưởng giao.",
+      "B": "Đại đội trưởng giao.",
+      "C": "Trung đội trưởng giao.",
+      "D": "Tổ trưởng hoặc tiểu đội trưởng giao."
+    },
+    "answer": "D"
+  },
+  {
+    "lesson": "KC5",
+    "number": "3",
+    "question": "Thủ đoạn của địch khi bị tiến công:",
+    "options": {
+      "A": "Lợi dụng công sự trận địa tăng cường quan sát.",
+      "B": "Khi bị tiến công địch lợi dụng công sự trận địa chống trả quyết liệt.",
+      "C": "Khi có nguy cơ bị tiêu diệt, địch co cụm tháo chạy và chờ lực lượng phía sau lên ứng cứu giải tỏa.",
+      "D": "Tất cả các phương án trên."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "4",
+    "question": "Từng người trong chiến đấu tiến công, cấp trên thường giao nhiệm vụ cho chiến sĩ ở:",
+    "options": {
+      "A": "Trên bản đồ địa hình.",
+      "B": "Trên sa bàn.",
+      "C": "Ngay tại thực địa.",
+      "D": "Trên cả sa bàn và bản đồ địa hình."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "5",
+    "question": "Từng người trong chiến đấu tiến công, có bao nhiêu yêu cầu:",
+    "options": {
+      "A": "4 yêu cầu.",
+      "B": "6 yêu cầu.",
+      "C": "7 yêu cầu.",
+      "D": "5 yêu cầu."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "6",
+    "question": "Từng người trong chiến đấu tiến công, có bao nhiêu nhiệm vụ:",
+    "options": {
+      "A": "4 nhiệm vụ.",
+      "B": "6 nhiệm vụ.",
+      "C": "5 nhiệm vụ.",
+      "D": "3 nhiệm vụ."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "7",
+    "question": "Khi nhận nhiệm vụ người chiến sĩ cần nắm bao nhiêu nội dung:",
+    "options": {
+      "A": "3 nội dung.",
+      "B": "4 nội dung.",
+      "C": "5 nội dung.",
+      "D": "6 nội dung."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "8",
+    "question": "Hiệp đồng trong chiến đấu nhằm mục đích:",
+    "options": {
+      "A": "Giữ vững trận địa, tạo nên yếu tố bí mật bất ngờ.",
+      "B": "Tạo nên sức mạnh tổng hợp, chỉ viện, hỗ trợ cho nhau.",
+      "C": "Nhằm phát huy cao độ hiệu quả các loại vũ khí.",
+      "D": "Giữ vững trận địa, tiêu diệt địch nhanh làm chủ trận địa."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "9",
+    "question": "Độc lập chiến đấu, chủ động hiệp đồng, liên tục chiến đấu, được xác định là:",
+    "options": {
+      "A": "Nhiệm vụ của từng người.",
+      "B": "Cách đánh.",
+      "C": "Yêu cầu chiến thuật.",
+      "D": "Nguyên tắc."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "10",
+    "question": "Quan sát địch, ta, địa hình, thời tiết. Vận động theo đường nào, đến đâu, thời cơ và động tác vận động, vị trí tạm dừng, cách nghỉ binh lừa địch. Được xác định là:",
+    "options": {
+      "A": "Hành động của chiến sĩ trước khi vận động.",
+      "B": "Hành động chiến sĩ khi vận động đến gần địch.",
+      "C": "Hành động chiến sĩ khi thực hành xung phong đánh chiếm mục tiêu.",
+      "D": "Hành động chiến sĩ sau khi hoàn thành nhiệm vụ."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "11",
+    "question": "Quan sát nắm chắc địch ở trên hào, địch dưới hào, tình hình đồng đội chiến đấu và địa hình, địa vật xung quanh để xác định cách đánh cụ thể cho phù hợp. Được xác định là:",
+    "options": {
+      "A": "Cách đánh mục tiêu chiến hào và giao thông hào.",
+      "B": "Cách đánh mục tiêu xe tăng xe bọc thép.",
+      "C": "Cách đánh mục tiêu ụ súng lô cốt.",
+      "D": "Cách đánh mục tiêu căn nhà."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "12",
+    "question": "Bí mật bất ngờ tinh khôn mưu mẹo. Được xác định là:",
+    "options": {
+      "A": "Một trong những yêu cầu chiến thuật.",
+      "B": "Một trong những nhiệm vụ.",
+      "C": "Một trong những cách đánh.",
+      "D": "Một trong những nguyên tắc."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "13",
+    "question": "Phải quan sát địch, ta, xem xét địa hình, thời tiết, cụ thể trong phạm vi chiến đấu chọn đường tiến. Vận động theo đường nào, đến đâu, thời cơ và động tác vận động, trong từng đoạn; vị trí tạm dừng, cách nghỉ binh lừa địch. Được xác định là:",
+    "options": {
+      "A": "Trước khi vận động tiến công mục tiêu.",
+      "B": "Khi vận động tiến công mục tiêu.",
+      "C": "Khi nhận nhiệm vụ ngoài thực địa.",
+      "D": "Khi thực hành đánh chiếm mục tiêu."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "14",
+    "question": "Phải luôn quan sát, nắm chắc tình hình địch, triệt để lợi dụng địa hình, địa vật, thời tiết, ánh sáng, tiếng động, ... để vận dụng các tư thế, động tác vận động cho phù hợp, bảo đảm mọi hành động nhanh, bí mật, an toàn, đến đúng thời gian quy định. Được xác định là:",
+    "options": {
+      "A": "Khi vận động tiến công mục tiêu.",
+      "B": "Trước khi vận động tiến công mục tiêu.",
+      "C": "Khi nhận nhiệm vụ ngoài thực địa.",
+      "D": "Khi thực hành đánh chiếm mục tiêu."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "15",
+    "question": "Phát huy cao độ của vũ khí trang bị, tiêu diệt địch tiết kiệm đạn. Được xác định là:",
+    "options": {
+      "A": "Nhiệm vụ.",
+      "B": "Cách đánh.",
+      "C": "Yêu cầu chiến thuật.",
+      "D": "Nguyên tắc."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "16",
+    "question": "Đánh nhanh sục sạo kỹ vừa đánh vừa địch vận. Được xác định là:",
+    "options": {
+      "A": "Nhiệm vụ.",
+      "B": "Cách đánh.",
+      "C": "Nguyên tắc.",
+      "D": "Yêu cầu chiến thuật."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "17",
+    "question": "Xác định tư tưởng, ý chí quyết tâm chiến đấu; nhận bổ sung vũ khí, trang bị, thuốc quân y, gói buộc lượng nổ. Được xác định là:",
+    "options": {
+      "A": "Nội dung làm công tác chuẩn bị của từng người trong chiến đấu.",
+      "B": "Yêu cầu chiến thuật.",
+      "C": "Cách đánh.",
+      "D": "Nguyên tắc."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "18",
+    "question": "Yêu cầu thứ 4 trong chiến đấu tiến công là:",
+    "options": {
+      "A": "Phát huy cao độ hiệu quả của vũ khí, trang bị tiêu diệt địch, tiết kiệm đạn.",
+      "B": "Biết phát hiện và lợi dụng nơi sơ hở, hiểm yếu của địch, tiếp cận đến gần tiêu diệt địch.",
+      "C": "Độc lập chiến đấu, chủ động hiệp đồng, liên tục chiến đấu.",
+      "D": "Đánh nhanh, sục sạo kỹ, vừa đánh vừa địch vận."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "19",
+    "question": "Một trong các yêu cầu chiến thuật từng người trong chiến đấu tiến công:",
+    "options": {
+      "A": "Thiết bị bắn chu đáo, phát huy được hỏa lực ngăn chặn và tiêu diệt địch trên các hướng.",
+      "B": "Có quyết tâm chiến đấu cao, chuẩn bị mọi mặt chu đáo để đánh địch liên tục dài ngày.",
+      "C": "Bí mật bất ngờ tinh khôn, mưu mẹo.",
+      "D": "Hiệp đồng chặt chẽ với đồng đội tạo thành thể liên hoàn đánh địch."
+    },
+    "answer": ""
+  },
+  {
+    "lesson": "KC5",
+    "number": "20",
+    "question": "Một yêu cầu chiến thuật khác là:",
+    "options": {
+      "A": "Đánh nhanh, sục sạo kỹ, vừa đánh vừa địch vận.",
+      "B": "Hiệp đồng chặt chẽ với đồng đội tạo thành thế liên hoàn đánh địch.",
+      "C": "Giữ vững trận địa, tiêu diệt địch nhanh làm chủ trận địa.",
+      "D": "Mức độ công sự ngụy trang, vật chất cần chuẩn bị."
+    },
+    "answer": "A"
+  },
+  {
+    "lesson": "KC5",
+    "number": "21",
+    "question": "Nguyên tắc làm công sự trong chiến đấu tiến công:",
+    "options": {
+      "A": "Triệt để tận dụng địa hình địa vật, vật liệu và nhân lực tại chỗ.",
+      "B": "Bí mật bất ngờ vững chắc, có công sự chính và công sự dự bị, ngụy trang kín đáo.",
+      "C": "Phủ hợp với ý định chiến thuật, tạo thế liên hoàn vũng chắc, phát huy được hỏa lực của các loại vũ khí.",
+      "D": "Nhằm phát huy cao độ hiệu quả các lọai vũ khí."
+    },
+    "answer": "C"
+  },
+  {
+    "lesson": "KC5",
+    "number": "22",
+    "question": "Tác dụng của ngụy trang trong chiến đấu tiến công:",
+    "options": {
+      "A": "Triệt để tận dụng địa hình địa vật, vật liệu và nhân lực tại chỗ, ngụy trang kín đáo.",
+      "B": "Che giấu người, vũ khí trang bị, phương tiện kỹ thuật, công sự, bảo đảm an toàn trong quá trình chiến đấu, không bị địch quan sát, trính sát phát hiện.",
+      "C": "Phù hợp với địa hình, phát huy được hỏa lực của các loại vũ khí.",
+      "D": "Nhằm làm phù hợp địa hình, phát huy cao độ hiệu quả các lọai vĩ khí, phương tiện chiến tranh, đồng thời giữ bí mật trong chiến đấu."
+    },
+    "answer": "B"
   }
 ]
