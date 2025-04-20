@@ -280,10 +280,10 @@
     "number": "24",
     "question": "Bạo loạn lật đổ gồm có những hình thức nào?",
     "options": {
-      "A": "Bạo loạn chính trị và bạo loạn vũ trang.",
-      "B": "Bạo loạn vũ trang kết hợp với gây rối.",
+      "A": "Bạo loạn chính trị.",
+      "B": "bạo loạn vũ trang.",
       "C": "Kết hợp bạo loạn chính trị với vũ trang.",
-      "D": "Cả A và C đúng."
+      "D": "Tất cả đều đúng."
     },
     "answer": "D"
   },
@@ -3862,5 +3862,1267 @@
       "D": "Nhằm làm phù hợp địa hình, phát huy cao độ hiệu quả các lọai vĩ khí, phương tiện chiến tranh, đồng thời giữ bí mật trong chiến đấu."
     },
     "answer": "B"
-  }
+  },
+    {
+        "lesson": "KC1",
+        "number": "1",
+        "question": "Khái niệm ngắm bắn là gì?",
+        "options": {
+            "A": "Xác định góc bắn và hướng bắn để đưa quỹ đạo đường đạn qua điểm định bắn trúng.",
+            "B": "Điều chỉnh súng để bắn trúng mục tiêu mà không cần xác định góc bắn.",
+            "C": "Đưa súng vào vị trí cố định và bắn theo hướng đã chọn trước.",
+            "D": "Tạo góc bắn dựa trên địa hình mà không cần điểm ngắm cố định."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "2",
+        "question": "Đường ngắm đúng là gì?",
+        "options": {
+            "A": "Đường ngắm cơ bản được dóng vào điểm ngắm trên mục tiêu, mặt súng thăng bằng.",
+            "B": "Đường ngắm không cần điểm ngắm, chỉ cần mặt súng thăng bằng.",
+            "C": "Đường ngắm dựa trên kinh nghiệm của xạ thủ.",
+            "D": "Đường ngắm được điều chỉnh theo gió và địa hình."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "3",
+        "question": "Thực chất của việc lấy đường ngắm cơ bản là gì?",
+        "options": {
+            "A": "Tạo cho súng một góc bắn về tầm và hướng.",
+            "B": "Đưa súng vào tư thế bắn thoải mái nhất.",
+            "C": "Điều chỉnh thước ngắm cho phù hợp với cự ly.",
+            "D": "Giữ súng ổn định để giảm rung lắc."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "4",
+        "question": "Khi mặt súng bị nghiêng về bên phải, điểm chạm của đạn sẽ như thế nào?",
+        "options": {
+            "A": "Thấp và lệch về bên phải.",
+            "B": "Thấp và lệch về bên trái.",
+            "C": "Cao và lệch về bên phải.",
+            "D": "Cao và lệch về bên trái."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "6",
+        "question": "Ngắm sai đường ngắm cơ bản sẽ dẫn đến gì?",
+        "options": {
+            "A": "Điểm chạm sai lệch so với điểm ngắm.",
+            "B": "Đạn bắn trúng mục tiêu nhưng không chính xác.",
+            "C": "Tốc độ đạn giảm mạnh.",
+            "D": "Không ảnh hưởng đến kết quả bắn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "8",
+        "question": "Trong địa hình trống trải, với mục tiêu ≤ 0,5m, nên chọn tư thế bắn nào?",
+        "options": {
+            "A": "Nằm bắn.",
+            "B": "Quỳ bắn.",
+            "C": "Đứng bắn.",
+            "D": "Tùy ý xạ thủ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "9",
+        "question": "Điểm ngắm đúng là gì?",
+        "options": {
+            "A": "Điểm xác định trên mục tiêu để ngắm bắn chính xác.",
+            "B": "Điểm bất kỳ trên mục tiêu.",
+            "C": "Điểm nằm ngoài mục tiêu để điều chỉnh đường đạn.",
+            "D": "Điểm cố định trên súng."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "11",
+        "question": "Nếu điểm ngắm cao hơn điểm ngắm đúng, điểm chạm sẽ như thế nào?",
+        "options": {
+            "A": "Cao hơn mục tiêu.",
+            "B": "Thấp hơn mục tiêu.",
+            "C": "Lệch phải mục tiêu.",
+            "D": "Lệch trái mục tiêu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "13",
+        "question": "Khi mặt súng không thăng bằng, kết quả bắn sẽ ra sao?",
+        "options": {
+            "A": "Điểm chạm lệch khỏi điểm ngắm.",
+            "B": "Đạn bắn trúng nhưng không đều.",
+            "C": "Điểm chạm không thay đổi.",
+            "D": "Tốc độ đạn giảm."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "15",
+        "question": "Mục đích của tập ngắm chụm là gì?",
+        "options": {
+            "A": "Rèn luyện kỹ năng ngắm bắn chính xác.",
+            "B": "Kiểm tra độ bền của súng.",
+            "C": "Điều chỉnh tầm bắn xa hơn.",
+            "D": "Tăng tốc độ bắn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "17",
+        "question": "Ảnh hưởng của ngắm sai đến kết quả bắn là gì?",
+        "options": {
+            "A": "Điểm chạm lệch khỏi mục tiêu dự kiến.",
+            "B": "Đạn bắn trúng nhưng không sát thương.",
+            "C": "Tăng tầm bắn của đạn.",
+            "D": "Không ảnh hưởng nếu súng ổn định."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC1",
+        "number": "18",
+        "question": "Thước ngắm được điều chỉnh dựa trên yếu tố nào?",
+        "options": {
+            "A": "Cự ly từ xạ thủ đến mục tiêu.",
+            "B": "Kích thước của mục tiêu.",
+            "C": "Tốc độ gió tại thời điểm bắn.",
+            "D": "Kinh nghiệm của xạ thủ."
+        },
+        "answer": "A"
+    },
+
+   
+    {
+        "lesson": "KC4",
+        "number": "21",
+        "question": "Lựu đạn được phân loại thành mấy loại chính?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "22",
+        "question": "Tác dụng của lựu đạn F1 là gì?",
+        "options": {
+            "A": "Sát thương sinh lực và phá hủy phương tiện bằng mảnh gang và áp lực khí thuốc.",
+            "B": "Chỉ sát thương sinh lực bằng mảnh văng.",
+            "C": "Chỉ phá hủy phương tiện bằng sức ép.",
+            "D": "Tạo khói để che giấu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "23",
+        "question": "Khối lượng toàn bộ của lựu đạn F1 là bao nhiêu?",
+        "options": {
+            "A": "500g",
+            "B": "600g",
+            "C": "700g",
+            "D": "800g"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "24",
+        "question": "Thời gian cháy chậm của lựu đạn F1 là bao nhiêu?",
+        "options": {
+            "A": "2 – 3 giây",
+            "B": "3 – 4 giây",
+            "C": "4 – 5 giây",
+            "D": "3.2 – 4.2 giây"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "25",
+        "question": "Bán kính sát thương của lựu đạn F1 là bao nhiêu?",
+        "options": {
+            "A": "10m",
+            "B": "15m",
+            "C": "20m",
+            "D": "25m"
+        },
+        "answer": "C"
+    },
+    {
+        "lesson": "KC4",
+        "number": "26",
+        "question": "Bộ phận nào của lựu đạn F1 tạo mảnh văng sát thương?",
+        "options": {
+            "A": "Thân lựu đạn",
+            "B": "Thuốc nhồi",
+            "C": "Bộ phận gây nổ",
+            "D": "Kíp nổ"
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "27",
+        "question": "Khối lượng thuốc nổ trong lựu đạn F1 là bao nhiêu?",
+        "options": {
+            "A": "30g",
+            "B": "60g",
+            "C": "90g",
+            "D": "120g"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "28",
+        "question": "Thời gian cháy chậm của lựu đạn LĐ-01 là bao nhiêu?",
+        "options": {
+            "A": "2,5 – 3,5 giây",
+            "B": "3,2 – 4,2 giây",
+            "C": "3 – 4 giây",
+            "D": "5 – 6 giây"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "29",
+        "question": "Tư thế đứng ném lựu đạn được sử dụng khi nào?",
+        "options": {
+            "A": "Khi không có vật che khuất cao ngang tầm ngực.",
+            "B": "Khi địch ở cự ly gần.",
+            "C": "Khi địa hình bằng phẳng và trống trải.",
+            "D": "Khi cần ném xa hơn 30m."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "31",
+        "question": "Khi nào không được sử dụng lựu đạn thật?",
+        "options": {
+            "A": "Trong huấn luyện hoặc khi chưa kiểm tra chất lượng.",
+            "B": "Khi địch ở cự ly quá gần.",
+            "C": "Khi thời tiết xấu.",
+            "D": "Trong huấn luyện."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "32",
+        "question": "Loại thuốc nổ nào được nhồi trong lựu đạn F1?",
+        "options": {
+            "A": "TNT",
+            "B": "Glyxeryl",
+            "C": "C4",
+            "D": "Glyxery và TNT"
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "34",
+        "question": "Quy tắc an toàn khi sử dụng lựu đạn là gì?",
+        "options": {
+            "A": "Kiểm tra lựu đạn trước khi sử dụng.",
+            "B": "Ném ngay khi rút chốt.",
+            "C": "Không kiểm tra nếu đã được cấp phát.",
+            "D": "Ném ở cự ly bất kỳ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "36",
+        "question": "Mục đích của lựu đạn LĐ-01 là gì?",
+        "options": {
+            "A": "Dùng để sát thương sinh lực địch bằng uy lực của thuốc nổ kết hợp với các mảnh văng.",
+            "B": "Phá hủy công sự kiên cố.",
+            "C": "Tạo khói che giấu.",
+            "D": "Phá hủy xe thiết giáp."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "37",
+        "question": "Khối lượng toàn bộ của lựu đạn LĐ-01 là bao nhiêu?",
+        "options": {
+            "A": "365-400g",
+            "B": "320-420g",
+            "C": "250-350g",
+            "D": "125-135g"
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "38",
+        "question": "Bán kính sát thương của lựu đạn LĐ-01 là bao nhiêu?",
+        "options": {
+            "A": "5-6m",
+            "B": "4-5m",
+            "C": "5-7m",
+            "D": "4-6m"
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "39",
+        "question": "Khi ném lựu đạn, chiến sĩ cần làm gì sau khi rút chốt?",
+        "options": {
+            "A": "Ném ngay lập tức về phía mục tiêu.",
+            "B": "Giữ trong tay 2 giây rồi ném.",
+            "C": "Quan sát mục tiêu thêm 3 giây.",
+            "D": "Chờ lệnh từ cấp trên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "41",
+        "question": "Lựu đạn F1 có bao nhiêu bộ phận chính?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC4",
+        "number": "42",
+        "question": "Chốt an toàn của lựu đạn có tác dụng gì?",
+        "options": {
+            "A": "Ngăn lựu đạn nổ khi chưa rút chốt.",
+            "B": "Tăng thời gian cháy chậm.",
+            "C": "Giữ thuốc nổ ổn định.",
+            "D": "Tăng lực ném."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC4",
+        "number": "43",
+        "question": "Khi kiểm tra lựu đạn, cần chú ý điều gì?",
+        "options": {
+            "A": "Chốt an toàn còn nguyên vẹn.",
+            "B": "Màu sắc của thân lựu đạn.",
+            "C": "Trọng lượng của lựu đạn.",
+            "D": "Hình dạng của kíp nổ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "46",
+        "question": "Yêu cầu chiến thuật của từng người trong chiến đấu tiến công là gì?",
+        "options": {
+            "A": "Hiểu rõ nhiệm vụ, phối hợp đồng đội, đánh địch hiệu quả.",
+            "B": "Hành động độc lập để tiêu diệt địch.",
+            "C": "Chờ lệnh từ cấp trên trước khi hành động.",
+            "D": "Tập trung vào bảo vệ vị trí của mình."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "47",
+        "question": "Trước khi vận động đến gần địch, chiến sĩ phải làm gì?",
+        "options": {
+            "A": "Quan sát tình hình địch và địa hình để chọn đường tiến.",
+            "B": "Báo cáo với cấp trên về vị trí địch.",
+            "C": "Chuẩn bị vũ khí và đạn dược đầy đủ.",
+            "D": "Tập trung với tổ để nhận lệnh mới."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "48",
+        "question": "Cách đánh ụ súng không có nắp là gì?",
+        "options": {
+            "A": "Bí mật tiếp cận bên sườn hoặc phía sau, ném lựu đạn vào bên trong.",
+            "B": "Tiếp cận từ phía trước và bắn trực tiếp.",
+            "C": "Dùng hỏa lực từ xa để tiêu diệt.",
+            "D": "Chờ địch ra khỏi ụ súng rồi tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "49",
+        "question": "Cách đánh ụ súng có nắp hoặc lô cốt là gì?",
+        "options": {
+            "A": "Tiếp cận gần, dùng lựu đạn ném qua lỗ châu mai.",
+            "B": "Bắn từ xa để phá hủy công sự.",
+            "C": "Chờ địch mở nắp rồi tấn công.",
+            "D": "Dùng súng phun lửa để tiêu diệt."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "50",
+        "question": "Sau khi nhận nhiệm vụ chiến đấu tiến công, chiến sĩ phải làm gì?",
+        "options": {
+            "A": "Chuẩn bị vũ khí, nghiên cứu địa hình, xác định mục tiêu.",
+            "B": "Lập tức tiến hành tấn công.",
+            "C": "Chờ đồng đội đến rồi cùng hành động.",
+            "D": "Báo cáo lại nhiệm vụ cho cấp trên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "51",
+        "question": "Khi đánh địch trong giao thông hào, chiến sĩ nên làm gì?",
+        "options": {
+            "A": "Ném lựu đạn vào giao thông hào rồi xung phong.",
+            "B": "Bắn từ xa để tiêu diệt địch.",
+            "C": "Chờ địch ra khỏi giao thông hào.",
+            "D": "Dùng dao găm để tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "52",
+        "question": "Khi gặp vật che khuất cao ngang tầm ngực, tư thế ném lựu đạn nào phù hợp?",
+        "options": {
+            "A": "Đứng ném.",
+            "B": "Quỳ ném.",
+            "C": "Nằm ném.",
+            "D": "Tất cả đều được."
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC5",
+        "number": "53",
+        "question": "Nhiệm vụ của từng người trong chiến đấu tiến công là gì?",
+        "options": {
+            "A": "Đánh chiếm mục tiêu được giao.",
+            "B": "Hỗ trợ đồng đội từ xa.",
+            "C": "Quan sát và báo cáo tình hình.",
+            "D": "Bảo vệ vị trí xuất phát."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "54",
+        "question": "Khi vận động đến gần địch, chiến sĩ cần làm gì để tránh bị phát hiện?",
+        "options": {
+            "A": "Tận dụng địa hình, địa vật để ẩn nấp.",
+            "B": "Di chuyển nhanh qua khu vực trống.",
+            "C": "Bắn chỉ thiên để đánh lạc hướng.",
+            "D": "Chờ đêm tối để tiếp cận."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "55",
+        "question": "Cách đánh tên địch ngoài công sự trong địa hình kín đáo là gì?",
+        "options": {
+            "A": "Tiếp cận bí mật và dùng lựu đạn hoặc bắn gần.",
+            "B": "Bắn từ xa để tiêu diệt.",
+            "C": "Chờ địch di chuyển rồi tấn công.",
+            "D": "Dùng hỏa lực mạnh để áp đảo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "57",
+        "question": "Công tác chuẩn bị chiến đấu tiến công bao gồm những gì?",
+        "options": {
+            "A": "Kiểm tra vũ khí, nghiên cứu địa hình, nắm nhiệm vụ.",
+            "B": "Tập hợp đội hình và chờ lệnh.",
+            "C": "Bắn thử để kiểm tra súng.",
+            "D": "Xây dựng công sự tạm thời."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "58",
+        "question": "Khi đánh lô cốt, mục tiêu chính là gì?",
+        "options": {
+            "A": "Tiêu diệt địch bên trong lô cốt.",
+            "B": "Phá hủy cấu trúc lô cốt.",
+            "C": "Chiếm giữ lô cốt để sử dụng.",
+            "D": "Buộc địch rút khỏi lô cốt."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "59",
+        "question": "Khi gặp tốp địch ngoài công sự, chiến sĩ nên làm gì?",
+        "options": {
+            "A": "Dùng lựu đạn và súng để tiêu diệt nhanh.",
+            "B": "Bắn từ xa để tránh giao tranh gần.",
+            "C": "Chờ viện binh đến hỗ trợ.",
+            "D": "Rút lui để bảo toàn lực lượng."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "60",
+        "question": "Yêu cầu hiểu rõ nhiệm vụ trong chiến đấu tiến công là gì?",
+        "options": {
+            "A": "Nắm rõ mục tiêu, cách đánh và phối hợp đồng đội.",
+            "B": "Biết vị trí của địch.",
+            "C": "Hiểu cách sử dụng vũ khí.",
+            "D": "Biết thời gian bắt đầu tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "61",
+        "question": "Khi tiếp cận ụ súng, chiến sĩ cần chú ý điều gì?",
+        "options": {
+            "A": "Tránh bị phát hiện và chọn vị trí ném lựu đạn hiệu quả.",
+            "B": "Bắn liên tục để áp đảo địch.",
+            "C": "Chờ địch bắn trước rồi phản công.",
+            "D": "Di chuyển thẳng đến ụ súng."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "62",
+        "question": "Trong chiến đấu tiến công, khi nào cần dùng lựu đạn?",
+        "options": {
+            "A": "Khi địch ở gần hoặc trong công sự.",
+            "B": "Khi địch ở cự ly xa.",
+            "C": "Khi hết đạn súng.",
+            "D": "Khi cần báo hiệu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "63",
+        "question": "Khi đánh giao thông hào, sau khi ném lựu đạn, chiến sĩ làm gì?",
+        "options": {
+            "A": "Xung phong vào tiêu diệt địch còn lại.",
+            "B": "Chờ xem kết quả rồi rút lui.",
+            "C": "Bắn từ xa để hỗ trợ.",
+            "D": "Chờ lệnh từ cấp trên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "64",
+        "question": "Khi gặp địch trong địa hình kín đáo, ưu tiên sử dụng vũ khí nào?",
+        "options": {
+            "A": "Lựu đạn.",
+            "B": "Súng trường.",
+            "C": "Súng máy.",
+            "D": "Dao găm."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "65",
+        "question": "Mục tiêu của chiến đấu tiến công là gì?",
+        "options": {
+            "A": "Tiêu diệt địch và chiếm lĩnh vị trí.",
+            "B": "Gây rối loạn hàng ngũ địch.",
+            "C": "Bảo vệ vị trí của ta.",
+            "D": "Thu thập thông tin về địch."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "66",
+        "question": "Khi tiến công, chiến sĩ cần phối hợp với ai?",
+        "options": {
+            "A": "Tổ, tiểu đội và đồng đội.",
+            "B": "Chỉ với cấp trên.",
+            "C": "Không cần phối hợp.",
+            "D": "Với đơn vị khác."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "67",
+        "question": "Khi gặp vật cản lớn, chiến sĩ nên làm gì?",
+        "options": {
+            "A": "Tìm cách vượt qua hoặc vòng tránh.",
+            "B": "Phá hủy vật cản bằng lựu đạn.",
+            "C": "Chờ hỗ trợ từ đồng đội.",
+            "D": "Rút lui để báo cáo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "68",
+        "question": "Khi đánh ụ súng, khoảng cách tối ưu để ném lựu đạn là bao nhiêu?",
+        "options": {
+            "A": "5 – 10m",
+            "B": "10 – 15m",
+            "C": "15 – 20m",
+            "D": "20 – 25m"
+        },
+        "answer": "B"
+    },
+    {
+        "lesson": "KC5",
+        "number": "69",
+        "question": "Trong chiến đấu tiến công, khi nào cần bắn súng?",
+        "options": {
+            "A": "Khi địch ở ngoài công sự hoặc cự ly xa.",
+            "B": "Khi địch ở trong công sự kiên cố.",
+            "C": "Khi hết lựu đạn.",
+            "D": "Khi cần báo hiệu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC5",
+        "number": "70",
+        "question": "Hành động đầu tiên sau khi chiếm được mục tiêu là gì?",
+        "options": {
+            "A": "Củng cố vị trí và báo cáo cấp trên.",
+            "B": "Tiếp tục truy kích địch.",
+            "C": "Rút lui về vị trí an toàn.",
+            "D": "Kiểm tra vũ khí và đạn dược."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "71",
+        "question": "Thủ đoạn địch thường dùng trước khi tiến công trận địa phòng ngự của ta là gì?",
+        "options": {
+            "A": "Bắn pháo chuẩn bị và thăm dò.",
+            "B": "Tấn công trực diện ngay lập tức.",
+            "C": "Rút lui để đánh lạc hướng.",
+            "D": "Dùng khói để che giấu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "72",
+        "question": "Khi địch rút chạy sau tiến công thất bại, chiến sĩ làm gì?",
+        "options": {
+            "A": "Bắn truy kích tiêu diệt địch trong tầm bắn hiệu quả.",
+            "B": "Rút lui để bảo toàn lực lượng.",
+            "C": "Chờ địch tiến công lần nữa.",
+            "D": "Tập trung cứu chữa thương binh."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "73",
+        "question": "Sau khi bắn truy kích địch rút chạy, chiến sĩ làm gì tiếp theo?",
+        "options": {
+            "A": "Củng cố công sự, báo cáo tình hình, sẵn sàng đánh tiếp.",
+            "B": "Tiếp tục truy kích đến cùng.",
+            "C": "Rút về vị trí an toàn.",
+            "D": "Chờ lệnh từ cấp trên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "74",
+        "question": "Yêu cầu chiến thuật trong chiến đấu phòng ngự là gì?",
+        "options": {
+            "A": "Giữ vững trận địa, tiêu diệt địch khi tiến công.",
+            "B": "Tấn công địch ngay khi phát hiện.",
+            "C": "Rút lui khi địch áp đảo.",
+            "D": "Ẩn nấp để tránh tổn thất."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "75",
+        "question": "Khi địch bắn phá chuẩn bị, chiến sĩ phải làm gì?",
+        "options": {
+            "A": "Ẩn nấp và quan sát tình hình địch.",
+            "B": "Bắn trả ngay lập tức.",
+            "C": "Rút khỏi trận địa.",
+            "D": "Chờ địch tiến công rồi phản công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "76",
+        "question": "Thứ tự xây dựng công sự trong chiến đấu phòng ngự là gì?",
+        "options": {
+            "A": "Công sự chiến đấu trước, công sự ẩn nấp sau.",
+            "B": "Công sự ẩn nấp trước, công sự chiến đấu sau.",
+            "C": "Công sự phụ trước, công sự chính sau.",
+            "D": "Tùy theo địa hình."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "77",
+        "question": "Nhiệm vụ của chiến sĩ trong chiến đấu phòng ngự là gì?",
+        "options": {
+            "A": "Phối hợp với tổ, tiểu đội giữ vững trận địa.",
+            "B": "Tấn công địch khi có cơ hội.",
+            "C": "Quan sát và báo cáo mà không chiến đấu.",
+            "D": "Bảo vệ bản thân trước tiên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "78",
+        "question": "Khi địch dùng máy bay đánh phá, chiến sĩ làm gì nếu được lệnh bắn?",
+        "options": {
+            "A": "Hiệp đồng với tổ, tiểu đội để bắn máy bay.",
+            "B": "Bắn ngay lập tức bằng súng cá nhân.",
+            "C": "Ẩn nấp và quan sát.",
+            "D": "Chờ máy bay hạ thấp rồi bắn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "79",
+        "question": "Cách bố trí vũ khí bắn thẳng trong phòng ngự là gì?",
+        "options": {
+            "A": "Đặt ở vị trí có tầm bắn rộng và rõ.",
+            "B": "Đặt sau công sự để ẩn nấp.",
+            "C": "Đặt gần địch để bắn gần.",
+            "D": "Đặt rải rác không theo quy tắc."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "80",
+        "question": "Cách sử dụng lựu đạn trong chiến đấu phòng ngự là gì?",
+        "options": {
+            "A": "Ném khi địch vào gần trận địa.",
+            "B": "Ném từ xa để tiêu diệt địch.",
+            "C": "Chỉ dùng khi hết đạn súng.",
+            "D": "Ném để báo hiệu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "81",
+        "question": "Thủ đoạn địch sau khi tiến công thất bại là gì?",
+        "options": {
+            "A": "Tái tổ chức và tiến công tiếp.",
+            "B": "Rút lui hoàn toàn.",
+            "C": "Dùng khói để che giấu.",
+            "D": "Chờ đêm tối để tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "82",
+        "question": "Khi nhận nhiệm vụ phòng ngự, chiến sĩ phải nắm rõ điều gì?",
+        "options": {
+            "A": "Vị trí địch, cách đánh và nhiệm vụ cụ thể.",
+            "B": "Chỉ cần biết vị trí trận địa.",
+            "C": "Cách sử dụng vũ khí.",
+            "D": "Thời gian địch tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "83",
+        "question": "Công tác chuẩn bị trong chiến đấu phòng ngự bao gồm gì?",
+        "options": {
+            "A": "Xây dựng công sự, bố trí vũ khí, nắm nhiệm vụ.",
+            "B": "Tấn công thăm dò địch.",
+            "C": "Rút lui để bảo toàn lực lượng.",
+            "D": "Chờ lệnh từ cấp trên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "84",
+        "question": "Khi địch tiến công, chiến sĩ nên làm gì?",
+        "options": {
+            "A": "Dùng hỏa lực tiêu diệt địch trong tầm bắn.",
+            "B": "Ẩn nấp và chờ địch rút.",
+            "C": "Rút lui nếu địch quá mạnh.",
+            "D": "Bắn chỉ thiên để cảnh cáo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "85",
+        "question": "Cách bố trí vũ khí diệt tăng trong phòng ngự là gì?",
+        "options": {
+            "A": "Đặt ở vị trí có thể bắn vào sườn hoặc phía sau xe tăng.",
+            "B": "Đặt ngay trước trận địa.",
+            "C": "Đặt ở vị trí cao nhất.",
+            "D": "Đặt ngẫu nhiên."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "86",
+        "question": "Khi địch dùng pháo bắn phá, mục tiêu chính của chúng là gì?",
+        "options": {
+            "A": "Phá hủy công sự và tiêu diệt sinh lực.",
+            "B": "Gây rối loạn để tiến công.",
+            "C": "Buộc ta rút lui.",
+            "D": "Tất cả các mục tiêu trên."
+        },
+        "answer": "D"
+    },
+    {
+        "lesson": "KC6",
+        "number": "87",
+        "question": "Khi xây dựng công sự, ưu tiên vị trí nào trước?",
+        "options": {
+            "A": "Vị trí chính.",
+            "B": "Vị trí phụ.",
+            "C": "Vị trí ẩn nấp.",
+            "D": "Vị trí quan sát."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "88",
+        "question": "Khi địch tiến công bằng bộ binh, chiến sĩ làm gì?",
+        "options": {
+            "A": "Bắn tiêu diệt khi địch vào tầm hiệu quả.",
+            "B": "Rút lui để tránh tổn thất.",
+            "C": "Chờ địch đến gần rồi dùng dao găm.",
+            "D": "Bắn từ xa để cảnh cáo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "89",
+        "question": "Mục đích của chiến đấu phòng ngự là gì?",
+        "options": {
+            "A": "Giữ vững trận địa và tiêu diệt địch.",
+            "B": "Tấn công địch để chiếm vị trí.",
+            "C": "Rút lui để bảo toàn lực lượng.",
+            "D": "Quan sát hành động của địch."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "90",
+        "question": "Khi địch dùng xe tăng tiến công, chiến sĩ làm gì?",
+        "options": {
+            "A": "Dùng vũ khí diệt tăng để tiêu diệt.",
+            "B": "Ẩn nấp và chờ xe tăng qua.",
+            "C": "Bắn súng trường để ngăn chặn.",
+            "D": "Rút lui khỏi trận địa."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "91",
+        "question": "Khi trận địa bị uy hiếp, chiến sĩ cần làm gì?",
+        "options": {
+            "A": "Báo cáo cấp trên và giữ vững vị trí.",
+            "B": "Rút lui ngay lập tức.",
+            "C": "Tấn công địch để giải vây.",
+            "D": "Ẩn nấp và chờ viện binh."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "92",
+        "question": "Khi địch dùng khói che giấu, chiến sĩ làm gì?",
+        "options": {
+            "A": "Quan sát kỹ và sẵn sàng bắn khi địch lộ diện.",
+            "B": "Bắn vào khu vực khói.",
+            "C": "Rút lui để tránh bị bất ngờ.",
+            "D": "Chờ khói tan rồi hành động."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "93",
+        "question": "Khi địch tấn công ban đêm, chiến sĩ cần chú ý gì?",
+        "options": {
+            "A": "Tăng cường quan sát và lắng nghe.",
+            "B": "Bắn liên tục để ngăn chặn.",
+            "C": "Rút về vị trí sáng hơn.",
+            "D": "Chờ sáng để phản công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "94",
+        "question": "Khi công sự bị phá hủy, chiến sĩ làm gì?",
+        "options": {
+            "A": "Tìm vị trí thay thế và tiếp tục chiến đấu.",
+            "B": "Rút lui khỏi trận địa.",
+            "C": "Chờ đồng đội xây dựng lại công sự.",
+            "D": "Ẩn nấp và không bắn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC6",
+        "number": "95",
+        "question": "Hành động cuối cùng sau khi địch rút lui là gì?",
+        "options": {
+            "A": "Báo cáo tình hình và sẵn sàng cho đợt tấn công tiếp theo.",
+            "B": "Rút lui để nghỉ ngơi.",
+            "C": "Tiếp tục truy kích địch.",
+            "D": "Kiểm tra vũ khí và đạn dược."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "96",
+        "question": "Nhiệm vụ chính của chiến sĩ khi làm nhiệm vụ canh gác là gì?",
+        "options": {
+            "A": "Phát hiện và ngăn chặn quân địch, kiểm tra người lạ mặt.",
+            "B": "Bảo vệ đơn vị khỏi tấn công bất ngờ.",
+            "C": "Quan sát và báo cáo mọi hoạt động.",
+            "D": "Thực hiện tuần tra định kỳ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "97",
+        "question": "Đội canh gác chịu sự chỉ huy của ai?",
+        "options": {
+            "A": "Chỉ huy đơn vị hoặc người được giao.",
+            "B": "Chiến sĩ cao cấp nhất trong đội.",
+            "C": "Tổ trưởng tổ chiến đấu.",
+            "D": "Không ai chỉ huy."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "98",
+        "question": "Yêu cầu chiến thuật khi canh gác là gì?",
+        "options": {
+            "A": "Hiểu nhiệm vụ, cảnh giác, xử trí kịp thời.",
+            "B": "Hành động độc lập khi phát hiện địch.",
+            "C": "Rời vị trí để kiểm tra khu vực.",
+            "D": "Chỉ quan sát mà không báo cáo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "99",
+        "question": "Khi phát hiện tên địch, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Báo động và sẵn sàng chiến đấu.",
+            "B": "Bắn ngay lập tức.",
+            "C": "Ẩn nấp và quan sát thêm.",
+            "D": "Chờ địch đến gần rồi tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "100",
+        "question": "Khi bị địch nổ súng trước, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Bắn trả, báo động và tìm chỗ ẩn nấp.",
+            "B": "Rút lui khỏi vị trí.",
+            "C": "Chờ lệnh từ cấp trên.",
+            "D": "Ẩn nấp và không bắn lại."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "101",
+        "question": "Khi phát hiện người lạ mặt, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Theo dõi và báo cáo cấp trên.",
+            "B": "Bắt giữ ngay lập tức.",
+            "C": "Bắn cảnh cáo.",
+            "D": "Không làm gì."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "102",
+        "question": "Chiến sĩ chọn vị trí canh gác như thế nào?",
+        "options": {
+            "A": "Nơi có tầm quan sát rộng, dễ ẩn nấp.",
+            "B": "Gần khu vực địch nhất.",
+            "C": "Nơi thoải mái nhất.",
+            "D": "Tùy ý chiến sĩ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "103",
+        "question": "Yêu cầu nào không được làm khi canh gác?",
+        "options": {
+            "A": "Rời vị trí khi chưa có lệnh.",
+            "B": "Quan sát liên tục.",
+            "C": "Báo cáo tình hình thường xuyên.",
+            "D": "Sẵn sàng chiến đấu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "104",
+        "question": "Khi thời tiết xấu, chiến sĩ canh gác cần làm gì?",
+        "options": {
+            "A": "Tăng cường quan sát và lắng nghe.",
+            "B": "Rút về nơi trú ẩn.",
+            "C": "Bắn chỉ thiên để kiểm tra.",
+            "D": "Chờ thời tiết tốt hơn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "105",
+        "question": "Mục đích của nhiệm vụ canh gác là gì?",
+        "options": {
+            "A": "Đảm bảo an toàn cho đơn vị.",
+            "B": "Tiêu diệt địch từ xa.",
+            "C": "Thu thập thông tin về địch.",
+            "D": "Hỗ trợ đồng đội chiến đấu."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "106",
+        "question": "Khi đổi ca canh gác, chiến sĩ cần làm gì?",
+        "options": {
+            "A": "Bàn giao tình hình và vị trí.",
+            "B": "Rời vị trí ngay lập tức.",
+            "C": "Tiếp tục quan sát cho đến khi ca mới đến.",
+            "D": "Báo cáo cấp trên rồi rút lui."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "107",
+        "question": "Khi nghe tiếng động lạ, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Quan sát kỹ và sẵn sàng báo động.",
+            "B": "Bắn vào hướng tiếng động.",
+            "C": "Rút lui để tránh nguy hiểm.",
+            "D": "Chờ xác nhận từ đồng đội."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "108",
+        "question": "Khi canh gác ban đêm, chiến sĩ cần chú ý gì?",
+        "options": {
+            "A": "Quan sát và lắng nghe cẩn thận.",
+            "B": "Bắn liên tục để ngăn chặn địch.",
+            "C": "Dùng đèn để chiếu sáng khu vực.",
+            "D": "Rút về nơi sáng hơn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "109",
+        "question": "Khi phát hiện dấu hiệu địch thâm nhập, chiến sĩ làm gì?",
+        "options": {
+            "A": "Báo động ngay và chuẩn bị chiến đấu.",
+            "B": "Theo dõi mà không báo cáo.",
+            "C": "Bắn cảnh cáo trước.",
+            "D": "Chờ địch đến gần rồi tấn công."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "110",
+        "question": "Chiến sĩ canh gác phải báo cáo những gì?",
+        "options": {
+            "A": "Mọi tình huống bất thường.",
+            "B": "Chỉ khi phát hiện địch.",
+            "C": "Khi hết ca trực.",
+            "D": "Không cần báo cáo."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "111",
+        "question": "Khi bị địch bao vây, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Báo động và chiến đấu đến cùng.",
+            "B": "Rút lui để bảo toàn tính mạng.",
+            "C": "Ẩn nấp và chờ cứu viện.",
+            "D": "Đầu hàng để tránh tổn thất."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "112",
+        "question": "Khi canh gác, chiến sĩ cần mang theo gì?",
+        "options": {
+            "A": "Vũ khí và phương tiện liên lạc.",
+            "B": "Chỉ cần vũ khí.",
+            "C": "Chỉ cần phương tiện liên lạc.",
+            "D": "Không cần mang gì."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "113",
+        "question": "Khi phát hiện khói hoặc lửa, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Báo cáo ngay và tìm nguyên nhân.",
+            "B": "Bắn vào khu vực có khói.",
+            "C": "Rút lui khỏi vị trí.",
+            "D": "Chờ xem tình hình."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "114",
+        "question": "Khi gặp đồng đội không nhận ra, chiến sĩ làm gì?",
+        "options": {
+            "A": "Yêu cầu dấu hiệu nhận biết và báo cáo.",
+            "B": "Bắn cảnh cáo ngay.",
+            "C": "Cho qua mà không kiểm tra.",
+            "D": "Rút lui để tránh nhầm lẫn."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "115",
+        "question": "Khi hết ca trực, chiến sĩ làm gì?",
+        "options": {
+            "A": "Bàn giao đầy đủ và rời vị trí.",
+            "B": "Rời vị trí ngay mà không bàn giao.",
+            "C": "Tiếp tục canh gác cho đến khi được thay.",
+            "D": "Báo cáo cấp trên rồi nghỉ ngơi."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "116",
+        "question": "Khi phát hiện vật lạ, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Báo cáo và không tự ý di chuyển vật lạ.",
+            "B": "Kiểm tra vật lạ ngay lập tức.",
+            "C": "Bắn vào vật lạ để thử phản ứng.",
+            "D": "Bỏ qua nếu không nguy hiểm."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "117",
+        "question": "Khi canh gác, chiến sĩ cần giữ trạng thái gì?",
+        "options": {
+            "A": "Luôn cảnh giác và sẵn sàng chiến đấu.",
+            "B": "Thư giãn để tránh căng thẳng.",
+            "C": "Ngồi nghỉ khi không có động tĩnh.",
+            "D": "Chỉ cần quan sát định kỳ."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "118",
+        "question": "Khi bị địch phát hiện, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Bắn trả và báo động ngay.",
+            "B": "Ẩn nấp và rút lui.",
+            "C": "Chờ địch tấn công rồi phản công.",
+            "D": "Không làm gì để tránh lộ vị trí."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "119",
+        "question": "Khi canh gác, khoảng cách tối ưu để quan sát là bao nhiêu?",
+        "options": {
+            "A": "Tùy thuộc vào địa hình và tầm nhìn.",
+            "B": "50m.",
+            "C": "100m.",
+            "D": "200m."
+        },
+        "answer": "A"
+    },
+    {
+        "lesson": "KC7",
+        "number": "120",
+        "question": "Khi đơn vị bị tấn công bất ngờ, chiến sĩ canh gác làm gì?",
+        "options": {
+            "A": "Báo động và tham gia chiến đấu.",
+            "B": "Rút lui để bảo toàn tính mạng.",
+            "C": "Ẩn nấp và quan sát.",
+            "D": "Chờ lệnh từ cấp trên."
+        },
+        "answer": "A"
+    }
 ]
