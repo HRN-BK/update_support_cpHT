@@ -258,6 +258,9 @@
     }
 
     function renderHome() {
+      // Define lessons that have available answers
+      const availableLessons = ['CT1', 'CT2', 'CT3', 'KC1', 'KC4', 'KC5', 'KC6', 'KC7'];
+      
       return `
         <div class="container mx-auto px-4 mb-4 flex justify-center">
           <a href="../index.html" class="btn btn-primary flex items-center gap-2">
@@ -277,35 +280,45 @@
               <!-- Học phần 2 -->
               <h4 class="text-md font-medium mb-2">Học phần 2:</h4>
               <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-4">
-                ${['CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7'].map(lesson => `
-                  <button
-                    class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
-                      state.selectedLessons.includes(lesson)
-                        ? 'bg-primary-light dark:bg-primary-dark text-white'
-                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
-                    }"
-                    data-lesson="${lesson}"
-                  >
-                    ${lesson}
-                  </button>
-                `).join('')}
+                ${['CT1', 'CT2', 'CT3', 'CT4', 'CT5', 'CT6', 'CT7'].map(lesson => {
+                  const isAvailable = availableLessons.includes(lesson);
+                  return `
+                    <button
+                      class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
+                        state.selectedLessons.includes(lesson)
+                          ? 'bg-primary-light dark:bg-primary-dark text-white'
+                          : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
+                      } ${!isAvailable ? 'opacity-50 cursor-not-allowed' : ''}"
+                      data-lesson="${lesson}"
+                      ${!isAvailable ? 'disabled' : ''}
+                      title="${!isAvailable ? 'Chưa có đáp án' : ''}"
+                    >
+                      ${lesson}
+                    </button>
+                  `;
+                }).join('')}
               </div>
               
               <!-- Học phần 4 -->
               <h4 class="text-md font-medium mb-2">Học phần 4:</h4>
               <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-4">
-                ${['KC1', 'KC2', 'KC3', 'KC4', 'KC5', 'KC6', 'KC7'].map(lesson => `
-                  <button
-                    class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
-                      state.selectedLessons.includes(lesson)
-                        ? 'bg-primary-light dark:bg-primary-dark text-white'
-                        : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
-                    }"
-                    data-lesson="${lesson}"
-                  >
-                    ${lesson}
-                  </button>
-                `).join('')}
+                ${['KC1', 'KC2', 'KC3', 'KC4', 'KC5', 'KC6', 'KC7'].map(lesson => {
+                  const isAvailable = availableLessons.includes(lesson);
+                  return `
+                    <button
+                      class="lesson-btn px-3 py-2 rounded-lg font-medium transition-colors ${
+                        state.selectedLessons.includes(lesson)
+                          ? 'bg-primary-light dark:bg-primary-dark text-white'
+                          : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
+                      } ${!isAvailable ? 'opacity-50 cursor-not-allowed' : ''}"
+                      data-lesson="${lesson}"
+                      ${!isAvailable ? 'disabled' : ''}
+                      title="${!isAvailable ? 'Chưa có đáp án' : ''}"
+                    >
+                      ${lesson}
+                    </button>
+                  `;
+                }).join('')}
               </div>
               
               <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
@@ -615,7 +628,7 @@
       // Home page
       if (state.page === 'home') {
         // Lesson buttons
-        const lessonButtons = document.querySelectorAll('.lesson-btn');
+        const lessonButtons = document.querySelectorAll('.lesson-btn:not([disabled])');
         lessonButtons.forEach(btn => {
           btn.addEventListener('click', () => {
             const lesson = btn.getAttribute('data-lesson');
